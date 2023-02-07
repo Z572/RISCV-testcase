@@ -7,8 +7,10 @@ MySQL 是一种关系型数据库管理系统，关系数据库将数据保存�
 
 ## 环境配置
 
-- 操作系统版本： openEuler 22.09 LTS riscv64
-- 软件版本： mysql-8.0.28-2.oe2203.riscv64
+- 操作系统: ubuntukylin-20.04-pro-sp2 riscv64 qemu
+- 镜像链接: https://mirrors.huaweicloud.com/ubuntukylin-cdimage/20.04/ubuntukylin-20.04-pro-sp2-riscv64-qemu.img.xz
+- qemu 配置: vcpu 16 memory 16.
+- 软件版本： mysql-server-8.0 (8.0.32-0ubuntu0.20.04.2)
 
 ## 参考资料
 

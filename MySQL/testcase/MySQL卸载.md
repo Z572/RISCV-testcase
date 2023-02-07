@@ -7,8 +7,9 @@
 ## 操作步骤
 
 1. 启动 Terminal
-2. 执行 sudo dnf remove mysql-server
-3. 输入 y 并回车
+2. 切换到 root 账户
+2. 执行 `apt remove mysql-server -y|tee ./MySQL_remove.log`
+3. 执行 `apt autoremove`
 
 ![MySQL卸载](./img/MySQL卸载.png)
 
@@ -17,5 +18,3 @@
 MySQL 卸载成功。
 
 ## 其他说明
-
-本测试用例面向 openEuler 操作系统，在此处供测试者参考。
