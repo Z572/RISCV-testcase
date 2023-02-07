@@ -17,4 +17,9 @@
 
 MySQL 卸载成功。
 
+## 实际结果
+
+MySQL 卸载成功。
+![MySQL卸载](./img/MySQL卸载2.png)
+
 ## 其他说明
