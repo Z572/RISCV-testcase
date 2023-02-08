@@ -6,8 +6,10 @@ GIMP 是一个多平台工具，用于创建和编辑各种图像。 GIMP 是 GN
 
 ## 环境配置
 
-- gimp-2 riscv64 2.99.6-3.oe2203
-- openEuler 22.03-v1 riscv64
+- 操作系统: ubuntukylin-20.04-pro-sp2 riscv64 qemu
+- 镜像链接: https://mirrors.huaweicloud.com/ubuntukylin-cdimage/20.04/ubuntukylin-20.04-pro-sp2-riscv64-qemu.img.xz
+- qemu 配置: vcpu 16 memory 16.
+- 软件版本： gimp 2.10.18-1
 
 ## 参考资料
 
