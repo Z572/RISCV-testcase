@@ -8,8 +8,9 @@ xfce4及其相关组件
 
 ## 环境配置
 
-- 操作系统版本： openEuler 22.03 LTS riscv64
-- 软件版本： xfce 4.16
+- 操作系统版本： ubuntukylin-20.04-pro-sp2 riscv64 qemu
+- qemu 配置: vcpu 16 memory 32.
+- 软件版本： xfce4 4.14
 
 ## 参考资料
 

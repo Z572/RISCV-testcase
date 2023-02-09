@@ -16,6 +16,13 @@
 
 Working Directory 文本框显示正常，可以正常输入文本信息，也可以通过文本框后面的文件仓库查找。文件仓库正常启动以及正常显示以及确认。
 
+
+## 实际结果
+
+与预期效果一致。
+
+![WorkingDirectory文本框-3](./img/WorkingDirectory文本框-3.png)
+
 ## 其他说明
 
 无。

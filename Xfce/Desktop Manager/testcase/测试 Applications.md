@@ -38,6 +38,10 @@ Application -> System -> Bulk Rename
 
 如图所示，所有功能正常。
 
-## 其他说明
+## 实际结果
 
-Desktop Manager 功能正常，异常情况只有 Application -> Terminal Emulator 极少情况（只出现过一次）会无反应。
+与预期效果一致。
+
+![测试Applications-9](./img/测试Applications-9.png)
+
+## 其他说明

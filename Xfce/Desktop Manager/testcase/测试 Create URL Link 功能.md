@@ -14,6 +14,15 @@
 
 功能正常运行。
 
+## 实际结果
+
+与预期效果一致
+
+![CreateURLLink功能测试-2](./img/CreateURLLink功能测试-2.png)
+
+![CreateURLLink功能测试-3](./img/CreateURLLink功能测试-3.png)
+
+
 ## 其他说明
 
 无。

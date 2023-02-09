@@ -14,6 +14,15 @@
 
 如图所示，功能正常。
 
+## 实际结果
+
+与预期效果一致。
+
+![CreateLauncher中的Create按钮测试-2](./img/CreateLauncher中的Create按钮测试-2.png)
+
+![CreateLauncher中的Create按钮测试-3](./img/CreateLauncher中的Create按钮测试-3.png)
+
+
 ## 其他说明
 
 无。

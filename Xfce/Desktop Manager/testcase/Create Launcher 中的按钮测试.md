@@ -16,6 +16,11 @@ Create 按钮可以正常启动，显示正常。
 
 Cancel 按钮可以正常启动，显示正常。
 
-## 其他说明
+## 实际结果
 
-help 按钮无法正常启动，闪退。
+与预期效果一致。
+
+![Create Launcher 中的按钮测试-1](./img/Create Launcher 中的按钮测试-1.png)
+
+
+## 其他说明

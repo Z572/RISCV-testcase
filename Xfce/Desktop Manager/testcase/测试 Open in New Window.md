@@ -14,6 +14,13 @@
 
 如图所示，功能正常。
 
+## 实际结果
+
+与预期效果一致。
+
+![测试openinnewwindow-2](./img/测试openinnewwindow-2.png)
+
+
 ## 其他说明
 
 无。

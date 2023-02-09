@@ -16,6 +16,12 @@
 
 如图所示，功能正常，已创建 123 文档。
 
+## 实际结果
+
+与预期效果一致
+
+![测试CreateDocument-3](./img/测试CreateDocument-3.png)
+
 ## 其他说明
 
 无。

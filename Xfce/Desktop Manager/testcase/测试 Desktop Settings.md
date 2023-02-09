@@ -16,6 +16,12 @@
 
 如图所示，功能正常，可以更换桌面壁纸。
 
+## 实际结果
+
+与预期效果一致。
+
+![测试DesktopSettings-3](./img/测试DesktopSettings-3.png)
+
 ## 其他说明
 
 无。
