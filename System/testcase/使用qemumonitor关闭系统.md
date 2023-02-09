@@ -11,4 +11,9 @@
 
 ## 实际结果
 
-系统仍然正常运行
+与预期不符, 测试失败
+
+可使用 <kbd>Ctrl+A C</kbd> 切换到 QEMU Monitor.
+![使用qemumonitor关闭系统-1](./img/使用qemumonitor关闭系统-1.png)
+
+输入 `system_powerdown` 后未有反映, 系统仍然正常运行

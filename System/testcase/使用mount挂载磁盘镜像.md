@@ -41,27 +41,27 @@
 
 ## 预期结果
 
-1. 使用 openEuler 提供的文件系统创建工具创建的文件系统能够成功挂载
+1. 使用 ubuntukylin 提供的文件系统创建工具创建的文件系统能够成功挂载
 2. 常见的文件系统，如 UDF 文件系统能够成功挂载
 
 ## 实际结果
 
-1. 无法挂载创建的 minix 文件系统
-    ```
-    $ mkfs.minix test.img
-    21856 inodes
-    65535 blocks
-    Firstdatazone=696 (696)
-    Zonesize=1024
-    Maxsize=268966912
+除 ntfs 与 cramfs 以外全部成功
 
-    # mount test.img /mnt
-    mount: /mnt: unknown filesystem type 'minix'.
-    ```
+成功:
+bfs ext2 ext3 ext4 fat minix msdos vfat
 
-2. 无法挂载 UDF 文件系统
-    ```
-    $ wget https://repo.openeuler.org/openEuler-22.03-LTS-SP1/ISO/x86_64/openEuler-22.03-LTS-SP1-x86_64-dvd.iso
-    # mount openEuler-22.03-LTS-SP1-x86_64-dvd.iso /mnt
-    mount: /mnt: unknown filesystem type 'iso9660'.
-    ```
+失败
+1. 无法创建 ntfs 文件系统
+``` sh
+ubuntukylin@ubuntukylin:/tmp$ mkfs.ntfs test.img
+test.img is not a block device.
+Refusing to make a filesystem here!
+```
+
+2. 无法创建 cramfs 文件系统
+``` sh
+ubuntukylin@ubuntukylin:/tmp$ mkfs.cramfs test.img
+mkfs.cramfs: bad usage
+Try 'mkfs.cramfs --help' for more information.
+```
