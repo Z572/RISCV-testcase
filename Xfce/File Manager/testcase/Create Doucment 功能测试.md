@@ -16,6 +16,13 @@
 
 文件创建成功。
 
+## 实际结果
+
+与预期效果一致
+
+![Create Doucment功能测试-3](./img/Create Doucment功能测试-3.png)
+
+
 ## 其他说明
 
 无。

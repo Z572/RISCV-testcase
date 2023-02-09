@@ -15,6 +15,11 @@
 ![File 下的 New Tab 功能-2](./img/File 下的 New Tab 功能-2.png)
 
 功能正常运行。
+## 实际结果
+
+与预期效果一致
+
+![newtab功能-2](./img/newtab功能-2.png)
 
 ## 其他说明
 

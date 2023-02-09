@@ -14,6 +14,12 @@
 
 功能正常运行。
 
+## 实际结果
+
+与预期效果一致
+
+![OpenwithotherApplication-2](./img/OpenwithotherApplication-2.png)
+
 ## 其他说明
 
 无。

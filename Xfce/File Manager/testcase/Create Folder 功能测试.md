@@ -18,6 +18,12 @@ File 下 Create Folder 功能测试说明。
 
 文件夹创建成功。
 
+## 实际结果
+
+与预期效果一致
+
+![CreateFolder功能测试-4](./img/CreateFolder功能测试-4.png)
+
 ## 其他说明
 
 无。

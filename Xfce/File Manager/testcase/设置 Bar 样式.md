@@ -28,6 +28,19 @@
 
 两种 Bar 样式正常设定。
 
+## 实际结果
+
+与预期效果一致
+
+Toolbar Style
+
+![设置Bar样式-5](./img/设置Bar样式-5.png)
+
+Pathbar Style
+
+![设置Bar样式-6](./img/设置Bar样式-6.png)
+
+
 ## 其他说明
 
 无。

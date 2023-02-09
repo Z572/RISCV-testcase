@@ -16,6 +16,12 @@ File 下 New Window 功能测试说明。
 
 功能正常运行。
 
+## 实际结果
+
+与预期效果一致
+
+![newwindow功能测试-2](./img/newwindow功能测试-2.png)
+
 ## 其他说明
 
 无。
