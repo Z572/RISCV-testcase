@@ -8,8 +8,10 @@ VLC Media Player 是一款可播放大多数格式，而无需安装编解码器
 
 ## 环境配置
 
-- 操作系统版本： openEuler 22.09 LTS riscv64
-- 软件版本： vlc riscv64 3.0.17.4-1.oe2203
+- 操作系统: ubuntukylin-20.04-pro-sp2 riscv64 qemu
+- 镜像链接: https://mirrors.huaweicloud.com/ubuntukylin-cdimage/20.04/ubuntukylin-20.04-pro-sp2-riscv64-qemu.img.xz
+- qemu 配置: vcpu 16 memory 32.
+- 软件版本： VLC media player 3.0.9.2 Vetinari (revision 3.0.9.2-0-gd4c1aefe4d)
 
 ## 参考资料
 
