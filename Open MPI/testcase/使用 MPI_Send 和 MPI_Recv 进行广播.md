@@ -41,18 +41,16 @@ Process 1 received data 100 from root process
 
 ## 实际结果
 
+与预期效果一致
+
 ```
-mpirun -n 4  ./mpi-broadcast-and-collective-communication/code/my_bcast
+$ cd mpi-broadcast-and-collective-communication/code/ && make && mpirun -n 4 my_bcast
+No protocol specified
 Process 0 broadcasting data 100
-Process 1 received data 100 from root process
 Process 3 received data 100 from root process
 Process 2 received data 100 from root process
+Process 1 received data 100 from root process
 ```
-
-## 结论
-
-功能正常运行，测试通过。
-
 ## 其他说明
 
 若遇到以下情况，请参见[这里](https://github.com/microseyuyu/RISCV-testcase/blob/openmpi/Open%20MPI/testcase/解决mpirun%20has%20detected%20an%20attempt%20to%20run%20as%20root.md)

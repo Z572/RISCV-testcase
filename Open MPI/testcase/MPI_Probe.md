@@ -42,6 +42,19 @@ mpirun -n 2  ./dynamic-receiving-with-mpi-probe-and-mpi-status/code/probe
 
 测试通过，功能正常运行。
 
+## 实际结果
+
+与预期效果一致
+
+```
+ubuntukylin@ubuntukylin:~/git/mpitutorial/tutorials$ cd dynamic-receiving-with-mpi-probe-and-mpi-status/code/ && make && mpirun -n 2 probe 2>&1 |tee /tmp/probe.log
+mpicc -o check_status check_status.c
+mpicc -o probe probe.c
+No protocol specified
+0 sent 7 numbers to 1
+1 dynamically received 7 numbers from 0.
+```
+
 ## 其他说明
 
 若遇到以下情况，请参见[这里](https://github.com/microseyuyu/RISCV-testcase/blob/openmpi/Open%20MPI/testcase/解决mpirun%20has%20detected%20an%20attempt%20to%20run%20as%20root.md)

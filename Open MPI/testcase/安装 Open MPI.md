@@ -66,6 +66,15 @@ Hello, world, I am 2 of 4, (Open MPI v4.1.4, package: Open MPI root@openEuler-ri
 Hello, world, I am 3 of 4, (Open MPI v4.1.4, package: Open MPI root@openEuler-riscv64 Distribution, ident: 4.1.4, repo rev: v4.1.4, May 26, 2022, 117))```
 ```
 
+## 实际结果
+
+测试成功
+
+使用 ubuntukylin 源内软件包安装.
+命令如下
+
+```apt install openmpi-bin```
+
 ## 其他说明
 
 无。

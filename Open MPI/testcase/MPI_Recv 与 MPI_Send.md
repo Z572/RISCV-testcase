@@ -56,6 +56,19 @@ mpirun -n 2 ./send_recv
 Process 1 received number -1 from process 0
 ```
 
+## 实际结果
+
+与预期效果一致
+
+```
+ubuntukylin@ubuntukylin:~/git/mpitutorial/tutorials$ cd mpi-send-and-receive/code/ && make && mpirun -n 2 send_recv 2>&1 |tee /tmp/send_recv.log
+mpicc -o send_recv send_recv.c
+mpicc -o ping_pong ping_pong.c
+mpicc -o ring ring.c
+No protocol specified
+Process 1 received number -1 from process 0
+```
+
 测试通过，功能正常运行。
 
 ## 其他说明

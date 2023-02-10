@@ -49,285 +49,291 @@ Process 0 received 20 incoming walkers
 
 ## 实际结果
 
+与预期效果一致
+
 ```
-mpirun -n 5  ./point-to-point-communication-application-random-walk/code/random_walk 100 500 20
-Process 1 initiated 20 walkers in subdomain 20 - 39
-Process 1 sending 20 outgoing walkers to process 2
-Process 3 initiated 20 walkers in subdomain 60 - 79
-Process 3 sending 18 outgoing walkers to process 4
-Process 4 initiated 20 walkers in subdomain 80 - 99
-Process 4 sending 20 outgoing walkers to process 0
+ubuntukylin@ubuntukylin:~/git/mpitutorial/tutorials$ cd point-to-point-communication-application-random-walk/code/ && make OMPI_CXX=g++-10 && mpirun -n 5 random_walk 100 500 20 2>&1 |tee /tmp/random_walk.log
+mpicxx -o random_walk random_walk.cc
+No protocol specified
 Process 0 initiated 20 walkers in subdomain 0 - 19
 Process 0 sending 20 outgoing walkers to process 1
+Process 3 initiated 20 walkers in subdomain 60 - 79
+Process 4 initiated 20 walkers in subdomain 80 - 99
+Process 3 sending 19 outgoing walkers to process 4
+Process 1 initiated 20 walkers in subdomain 20 - 39
 Process 2 initiated 20 walkers in subdomain 40 - 59
 Process 2 sending 19 outgoing walkers to process 3
-Process 0 received 20 incoming walkers
-Process 0 sending 17 outgoing walkers to process 1
-Process 1 received 20 incoming walkers
+Process 4 sending 20 outgoing walkers to process 0
 Process 1 sending 20 outgoing walkers to process 2
-Process 1 received 17 incoming walkers
-Process 1 sending 15 outgoing walkers to process 2
-Process 2 received 20 incoming walkers
-Process 2 sending 19 outgoing walkers to process 3
-Process 2 received 20 incoming walkers
-Process 2 sending 20 outgoing walkers to process 3
-Process 3 received 19 incoming walkers
-Process 3 sending 18 outgoing walkers to process 4
 Process 3 received 19 incoming walkers
 Process 3 sending 19 outgoing walkers to process 4
-Process 3 received 20 incoming walkers
-Process 3 sending 19 outgoing walkers to process 4
-Process 4 received 18 incoming walkers
-Process 4 sending 18 outgoing walkers to process 0
-Process 1 received 17 incoming walkers
-Process 1 sending 17 outgoing walkers to process 2
-Process 0 received 18 incoming walkers
-Process 0 sending 17 outgoing walkers to process 1
-Process 2 received 15 incoming walkers
-Process 2 sending 14 outgoing walkers to process 3
-Process 3 received 14 incoming walkers
-Process 3 sending 14 outgoing walkers to process 4
-Process 4 received 18 incoming walkers
-Process 4 sending 17 outgoing walkers to process 0
-Process 2 received 17 incoming walkers
-Process 2 sending 17 outgoing walkers to process 3
-Process 1 received 17 incoming walkers
-Process 1 sending 17 outgoing walkers to process 2
-Process 0 received 17 incoming walkers
-Process 0 sending 17 outgoing walkers to process 1
-Process 4 received 19 incoming walkers
-Process 4 sending 19 outgoing walkers to process 0
+Process 0 received 20 incoming walkers
+Process 0 sending 20 outgoing walkers to process 1
+Process 1 received 20 incoming walkers
 Process 4 received 19 incoming walkers
 Process 4 sending 18 outgoing walkers to process 0
-Process 4 received 14 incoming walkers
-Process 4 sending 13 outgoing walkers to process 0
-Process 3 received 17 incoming walkers
-Process 3 sending 16 outgoing walkers to process 4
-Process 3 received 15 incoming walkers
-Process 1 received 19 incoming walkers
-Process 1 sending 19 outgoing walkers to process 2
-Process 1 received 18 incoming walkers
-Process 1 sending 17 outgoing walkers to process 2
-Process 0 received 19 incoming walkers
-Process 0 sending 19 outgoing walkers to process 1
+Process 1 sending 20 outgoing walkers to process 2
+Process 2 received 20 incoming walkers
+Process 1 received 20 incoming walkers
+Process 2 sending 16 outgoing walkers to process 3
 Process 0 received 18 incoming walkers
 Process 0 sending 18 outgoing walkers to process 1
-Process 0 received 13 incoming walkers
-Process 0 sending 13 outgoing walkers to process 1
-Process 0 received 13 incoming walkers
-Process 0 sending 13 outgoing walkers to process 1
-Process 1 received 13 incoming walkers
-Process 1 sending 13 outgoing walkers to process 2
-Process 1 received 13 incoming walkers
-Process 4 received 16 incoming walkers
-Process 4 sending 13 outgoing walkers to process 0
-Process 4 received 14 incoming walkers
-Process 4 sending 10 outgoing walkers to process 0
-Process 4 received 17 incoming walkers
-Process 4 sending 17 outgoing walkers to process 0
-Process 2 received 17 incoming walkers
-Process 2 sending 15 outgoing walkers to process 3
-Process 2 received 19 incoming walkers
-Process 2 sending 18 outgoing walkers to process 3
-Process 2 received 17 incoming walkers
-Process 2 sending 17 outgoing walkers to process 3
-Process 2 received 13 incoming walkers
-Process 2 sending 13 outgoing walkers to process 3
-Process 2 received 13 incoming walkers
-Process 3 sending 14 outgoing walkers to process 4
-Process 3 received 18 incoming walkers
-Process 3 sending 17 outgoing walkers to process 4
-Process 3 received 17 incoming walkers
+Process 1 sending 20 outgoing walkers to process 2
+Process 2 received 20 incoming walkers
+Process 2 sending 20 outgoing walkers to process 3
+Process 3 received 16 incoming walkers
 Process 3 sending 16 outgoing walkers to process 4
-Process 3 received 13 incoming walkers
-Process 0 received 10 incoming walkers
-Process 0 sending 10 outgoing walkers to process 1
+Process 1 received 18 incoming walkers
+Process 1 sending 17 outgoing walkers to process 2
+Process 3 received 20 incoming walkers
+Process 3 sending 19 outgoing walkers to process 4
+Process 2 received 20 incoming walkers
+Process 2 sending 20 outgoing walkers to process 3
+Process 4 received 19 incoming walkers
+Process 3 received 20 incoming walkers
+Process 3 sending 19 outgoing walkers to process 4
+Process 4 sending 17 outgoing walkers to process 0
+Process 4 received 16 incoming walkers
+Process 4 sending 16 outgoing walkers to process 0
 Process 0 received 17 incoming walkers
 Process 0 sending 17 outgoing walkers to process 1
+Process 0 received 16 incoming walkers
+Process 0 sending 16 outgoing walkers to process 1
+Process 0 received 18 incoming walkers
+Process 1 received 17 incoming walkers
+Process 1 sending 17 outgoing walkers to process 2
+Process 1 received 16 incoming walkers
+Process 1 sending 15 outgoing walkers to process 2
+Process 2 received 17 incoming walkers
+Process 2 sending 17 outgoing walkers to process 3
+Process 4 received 19 incoming walkers
+Process 4 sending 18 outgoing walkers to process 0
+Process 0 sending 18 outgoing walkers to process 1
+Process 2 received 17 incoming walkers
+Process 2 sending 16 outgoing walkers to process 3
+Process 1 received 18 incoming walkers
+Process 1 sending 17 outgoing walkers to process 2
+Process 2 received 15 incoming walkers
+Process 2 sending 13 outgoing walkers to process 3
+Process 3 received 17 incoming walkers
+Process 4 received 19 incoming walkers
+Process 4 sending 17 outgoing walkers to process 0
+Process 0 received 17 incoming walkers
+Process 0 sending 17 outgoing walkers to process 1
+Process 3 sending 15 outgoing walkers to process 4
+Process 1 received 17 incoming walkers
+Process 1 sending 14 outgoing walkers to process 2
+Process 3 received 16 incoming walkers
+Process 3 sending 16 outgoing walkers to process 4
+Process 3 received 13 incoming walkers
+Process 3 sending 13 outgoing walkers to process 4
+Process 4 received 15 incoming walkers
+Process 4 sending 14 outgoing walkers to process 0
+Process 2 received 17 incoming walkers
+Process 2 sending 17 outgoing walkers to process 3
+Process 4 received 16 incoming walkers
+Process 4 sending 16 outgoing walkers to process 0
+Process 4 received 13 incoming walkers
+Process 3 received 17 incoming walkers
+Process 3 sending 16 outgoing walkers to process 4
+Process 4 sending 13 outgoing walkers to process 0
 Process 0 received 14 incoming walkers
 Process 0 sending 14 outgoing walkers to process 1
-Process 0 received 12 incoming walkers
-Process 0 sending 11 outgoing walkers to process 1
-Process 0 received 11 incoming walkers
-Process 0 sending 11 outgoing walkers to process 1
-Process 1 sending 13 outgoing walkers to process 2
-Process 1 received 10 incoming walkers
-Process 1 sending 9 outgoing walkers to process 2
-Process 1 received 17 incoming walkers
-Process 1 sending 15 outgoing walkers to process 2
+Process 2 received 14 incoming walkers
+Process 2 sending 14 outgoing walkers to process 3
+Process 2 received 14 incoming walkers
+Process 0 received 16 incoming walkers
+Process 0 sending 16 outgoing walkers to process 1
+Process 0 received 13 incoming walkers
 Process 1 received 14 incoming walkers
-Process 1 sending 13 outgoing walkers to process 2
-Process 1 received 11 incoming walkers
-Process 1 sending 10 outgoing walkers to process 2
-Process 1 received 11 incoming walkers
-Process 1 sending 10 outgoing walkers to process 2
+Process 1 sending 14 outgoing walkers to process 2
+Process 1 received 16 incoming walkers
+Process 1 sending 14 outgoing walkers to process 2
 Process 4 received 16 incoming walkers
 Process 4 sending 14 outgoing walkers to process 0
-Process 4 received 12 incoming walkers
-Process 4 sending 12 outgoing walkers to process 0
+Process 4 received 14 incoming walkers
+Process 4 sending 14 outgoing walkers to process 0
+Process 2 sending 13 outgoing walkers to process 3
+Process 2 received 14 incoming walkers
+Process 3 received 14 incoming walkers
+Process 3 sending 14 outgoing walkers to process 4
+Process 3 received 13 incoming walkers
+Process 3 sending 12 outgoing walkers to process 4
+Process 1 received 12 incoming walkers
+Process 1 sending 12 outgoing walkers to process 2
+Process 1 received 14 incoming walkers
+Process 1 sending 13 outgoing walkers to process 2
+Process 0 sending 12 outgoing walkers to process 1
+Process 0 received 14 incoming walkers
+Process 0 sending 14 outgoing walkers to process 1
+Process 0 received 14 incoming walkers
+Process 1 received 11 incoming walkers
 Process 4 received 12 incoming walkers
 Process 4 sending 11 outgoing walkers to process 0
 Process 2 sending 13 outgoing walkers to process 3
-Process 2 received 9 incoming walkers
-Process 2 sending 9 outgoing walkers to process 3
-Process 2 received 15 incoming walkers
-Process 2 sending 12 outgoing walkers to process 3
-Process 3 sending 12 outgoing walkers to process 4
-Process 3 received 13 incoming walkers
-Process 3 sending 12 outgoing walkers to process 4
-Process 3 received 9 incoming walkers
-Process 3 sending 9 outgoing walkers to process 4
+Process 2 received 12 incoming walkers
+Process 2 sending 10 outgoing walkers to process 3
 Process 2 received 13 incoming walkers
+Process 0 sending 11 outgoing walkers to process 1
+Process 0 received 11 incoming walkers
+Process 3 received 13 incoming walkers
+Process 3 sending 11 outgoing walkers to process 4
+Process 3 received 10 incoming walkers
+Process 3 sending 9 outgoing walkers to process 4
+Process 0 sending 11 outgoing walkers to process 1
 Process 2 sending 12 outgoing walkers to process 3
-Process 0 received 9 incoming walkers
-Process 0 sending 7 outgoing walkers to process 1
-Process 1 received 7 incoming walkers
-Process 1 sending 7 outgoing walkers to process 2
+Process 2 received 10 incoming walkers
+Process 1 sending 10 outgoing walkers to process 2
+Process 1 received 11 incoming walkers
+Process 1 sending 11 outgoing walkers to process 2
+Process 1 received 10 incoming walkers
+Process 1 sending 8 outgoing walkers to process 2
+Process 4 received 11 incoming walkers
+Process 4 sending 11 outgoing walkers to process 0
 Process 4 received 9 incoming walkers
 Process 4 sending 9 outgoing walkers to process 0
 Process 3 received 12 incoming walkers
 Process 3 sending 11 outgoing walkers to process 4
-Process 4 received 11 incoming walkers
-Process 4 sending 10 outgoing walkers to process 0
-Process 4 received 11 incoming walkers
-Process 4 sending 11 outgoing walkers to process 0
-Process 2 received 10 incoming walkers
-Process 2 sending 9 outgoing walkers to process 3
-Process 0 received 10 incoming walkers
-Process 0 sending 10 outgoing walkers to process 1
-Process 0 received 11 incoming walkers
-Process 0 sending 8 outgoing walkers to process 1
-Process 1 received 10 incoming walkers
-Process 1 sending 9 outgoing walkers to process 2
-Process 3 received 12 incoming walkers
-Process 3 sending 11 outgoing walkers to process 4
 Process 3 received 9 incoming walkers
 Process 3 sending 8 outgoing walkers to process 4
-Process 3 received 10 incoming walkers
-Process 3 sending 8 outgoing walkers to process 4
-Process 1 received 8 incoming walkers
-Process 1 sending 8 outgoing walkers to process 2
-Process 1 received 4 incoming walkers
-Process 1 sending 4 outgoing walkers to process 2
-Process 4 received 8 incoming walkers
-Process 4 sending 5 outgoing walkers to process 0
+Process 4 received 11 incoming walkers
+Process 4 sending 11 outgoing walkers to process 0
+Process 0 received 11 incoming walkers
+Process 0 sending 10 outgoing walkers to process 1
+Process 0 received 9 incoming walkers
+Process 0 sending 9 outgoing walkers to process 1
+Process 0 received 11 incoming walkers
+Process 0 sending 8 outgoing walkers to process 1
+Process 2 sending 9 outgoing walkers to process 3
+Process 2 received 11 incoming walkers
+Process 2 sending 11 outgoing walkers to process 3
+Process 1 received 9 incoming walkers
+Process 1 sending 9 outgoing walkers to process 2
+Process 3 received 11 incoming walkers
+Process 3 sending 10 outgoing walkers to process 4
 Process 4 received 8 incoming walkers
 Process 4 sending 8 outgoing walkers to process 0
-Process 2 received 10 incoming walkers
-Process 2 sending 10 outgoing walkers to process 3
-Process 2 received 7 incoming walkers
-Process 2 sending 7 outgoing walkers to process 3
-Process 2 received 9 incoming walkers
-Process 2 sending 8 outgoing walkers to process 3
 Process 2 received 8 incoming walkers
-Process 2 sending 7 outgoing walkers to process 3
-Process 2 received 4 incoming walkers
-Process 2 sending 3 outgoing walkers to process 3
-Process 0 received 5 incoming walkers
-Process 0 sending 4 outgoing walkers to process 1
+Process 2 sending 6 outgoing walkers to process 3
+Process 3 received 6 incoming walkers
+Process 3 sending 6 outgoing walkers to process 4
 Process 0 received 8 incoming walkers
 Process 0 sending 7 outgoing walkers to process 1
-Process 0 received 6 incoming walkers
-Process 0 sending 5 outgoing walkers to process 1
-Process 0 received 7 incoming walkers
-Process 3 received 7 incoming walkers
-Process 3 sending 7 outgoing walkers to process 4
-Process 3 received 8 incoming walkers
-Process 3 sending 8 outgoing walkers to process 4
-Process 3 received 7 incoming walkers
-Process 3 sending 7 outgoing walkers to process 4
-Process 3 received 3 incoming walkers
-Process 3 sending 2 outgoing walkers to process 4
-Process 3 received 4 incoming walkers
-Process 3 sending 3 outgoing walkers to process 4
-Process 3 received 3 incoming walkers
-Process 3 sending 2 outgoing walkers to process 4
-Process 3 received 3 incoming walkers
-Process 3 sending 0 outgoing walkers to process 4
-Process 3 received 1 incoming walkers
-Process 3 sending 0 outgoing walkers to process 4
-Process 3 received 1 incoming walkers
-Process 3 sending 0 outgoing walkers to process 4
+Process 1 received 8 incoming walkers
+Process 1 sending 8 outgoing walkers to process 2
+Process 2 received 9 incoming walkers
+Process 2 sending 8 outgoing walkers to process 3
+Process 4 received 10 incoming walkers
+Process 4 sending 10 outgoing walkers to process 0
 Process 1 received 7 incoming walkers
+Process 1 sending 7 outgoing walkers to process 2
+Process 3 received 8 incoming walkers
+Process 3 sending 7 outgoing walkers to process 4
+Process 2 received 8 incoming walkers
+Process 2 sending 7 outgoing walkers to process 3
+Process 0 received 10 incoming walkers
+Process 0 sending 9 outgoing walkers to process 1
+Process 3 received 7 incoming walkers
+Process 3 sending 7 outgoing walkers to process 4
+Process 4 received 6 incoming walkers
+Process 4 sending 6 outgoing walkers to process 0
+Process 0 received 6 incoming walkers
+Process 0 sending 6 outgoing walkers to process 1
+Process 3 received 6 incoming walkers
+Process 3 sending 5 outgoing walkers to process 4
+Process 1 received 9 incoming walkers
+Process 1 sending 8 outgoing walkers to process 2
+Process 1 received 6 incoming walkers
 Process 1 sending 6 outgoing walkers to process 2
 Process 1 received 5 incoming walkers
-Process 1 sending 3 outgoing walkers to process 2
-Process 1 received 6 incoming walkers
 Process 1 sending 5 outgoing walkers to process 2
 Process 1 received 3 incoming walkers
+Process 4 received 7 incoming walkers
+Process 4 sending 6 outgoing walkers to process 0
+Process 4 received 7 incoming walkers
+Process 4 sending 4 outgoing walkers to process 0
+Process 0 received 6 incoming walkers
+Process 0 sending 5 outgoing walkers to process 1
+Process 0 received 4 incoming walkers
+Process 0 sending 3 outgoing walkers to process 1
+Process 2 received 7 incoming walkers
+Process 2 sending 6 outgoing walkers to process 3
+Process 2 received 8 incoming walkers
+Process 2 sending 7 outgoing walkers to process 3
+Process 2 received 6 incoming walkers
+Process 4 received 5 incoming walkers
+Process 4 sending 5 outgoing walkers to process 0
+Process 3 received 7 incoming walkers
+Process 3 sending 6 outgoing walkers to process 4
 Process 1 sending 3 outgoing walkers to process 2
-Process 1 received 2 incoming walkers
-Process 1 sending 1 outgoing walkers to process 2
-Process 1 received 2 incoming walkers
-Process 1 sending 0 outgoing walkers to process 2
+Process 2 sending 6 outgoing walkers to process 3
+Process 2 received 5 incoming walkers
+Process 1 received 4 incoming walkers
+Process 1 sending 3 outgoing walkers to process 2
 Process 1 received 0 incoming walkers
+Process 4 received 6 incoming walkers
+Process 4 sending 3 outgoing walkers to process 0
+Process 4 received 5 incoming walkers
+Process 4 sending 5 outgoing walkers to process 0
+Process 4 received 2 incoming walkers
+Process 4 sending 0 outgoing walkers to process 0
+Process 3 received 6 incoming walkers
+Process 3 sending 5 outgoing walkers to process 4
+Process 3 received 4 incoming walkers
+Process 3 sending 2 outgoing walkers to process 4
+Process 3 received 1 incoming walkers
+Process 3 sending 0 outgoing walkers to process 4
+Process 2 sending 4 outgoing walkers to process 3
+Process 2 received 3 incoming walkers
+Process 2 sending 1 outgoing walkers to process 3
+Process 2 received 3 incoming walkers
+Process 0 received 5 incoming walkers
+Process 0 sending 4 outgoing walkers to process 1
+Process 0 received 3 incoming walkers
+Process 0 sending 0 outgoing walkers to process 1
+Process 0 received 5 incoming walkers
+Process 0 sending 1 outgoing walkers to process 1
+Process 0 received 0 incoming walkers
+Process 0 sending 0 outgoing walkers to process 1
+Process 0 received 0 incoming walkers
+Process 0 sending 0 outgoing walkers to process 1
+Process 2 sending 1 outgoing walkers to process 3
+Process 2 received 0 incoming walkers
+Process 2 sending 0 outgoing walkers to process 3
+Process 2 received 0 incoming walkers
+Process 2 sending 0 outgoing walkers to process 3
+Process 3 received 1 incoming walkers
+Process 3 sending 0 outgoing walkers to process 4
+Process 3 received 0 incoming walkers
+Process 3 sending 0 outgoing walkers to process 4
+Process 3 received 0 incoming walkers
+Process 1 sending 0 outgoing walkers to process 2
+Process 1 received 1 incoming walkers
 Process 1 sending 0 outgoing walkers to process 2
 Process 1 received 0 incoming walkers
 Process 1 sending 0 outgoing walkers to process 2
 Process 1 received 0 incoming walkers
 Process 1 done
-Process 4 received 7 incoming walkers
-Process 4 sending 6 outgoing walkers to process 0
-Process 4 received 8 incoming walkers
-Process 4 sending 7 outgoing walkers to process 0
-Process 4 received 7 incoming walkers
-Process 4 sending 4 outgoing walkers to process 0
-Process 4 received 2 incoming walkers
-Process 4 sending 2 outgoing walkers to process 0
-Process 4 received 3 incoming walkers
-Process 4 sending 3 outgoing walkers to process 0
-Process 4 received 2 incoming walkers
-Process 4 sending 1 outgoing walkers to process 0
 Process 4 received 0 incoming walkers
 Process 4 sending 0 outgoing walkers to process 0
 Process 4 received 0 incoming walkers
 Process 4 sending 0 outgoing walkers to process 0
-Process 4 received 0 incoming walkers
-Process 4 sending 0 outgoing walkers to process 0
-Process 2 received 6 incoming walkers
-Process 2 sending 4 outgoing walkers to process 3
-Process 2 received 3 incoming walkers
-Process 2 sending 3 outgoing walkers to process 3
-Process 2 received 5 incoming walkers
-Process 2 sending 3 outgoing walkers to process 3
-Process 2 received 3 incoming walkers
-Process 2 sending 1 outgoing walkers to process 3
-Process 2 received 1 incoming walkers
-Process 2 sending 1 outgoing walkers to process 3
-Process 2 received 0 incoming walkers
-Process 2 sending 0 outgoing walkers to process 3
-Process 2 received 0 incoming walkers
-Process 2 sending 0 outgoing walkers to process 3
-Process 2 received 0 incoming walkers
-Process 2 done
-Process 0 sending 6 outgoing walkers to process 1
-Process 0 received 4 incoming walkers
-Process 0 sending 3 outgoing walkers to process 1
-Process 0 received 2 incoming walkers
-Process 0 sending 2 outgoing walkers to process 1
-Process 0 received 3 incoming walkers
-Process 0 sending 2 outgoing walkers to process 1
-Process 0 received 1 incoming walkers
-Process 0 sending 0 outgoing walkers to process 1
-Process 0 received 0 incoming walkers
-Process 0 sending 0 outgoing walkers to process 1
-Process 0 received 0 incoming walkers
-Process 0 sending 0 outgoing walkers to process 1
-Process 0 received 0 incoming walkers
-Process 0 done
-Process 3 received 0 incoming walkers
-Process 3 sending 0 outgoing walkers to process 4
-Process 3 received 0 incoming walkers
-Process 3 done
 Process 4 received 0 incoming walkers
 Process 4 done
+Process 0 received 0 incoming walkers
+Process 0 done
+Process 2 received 0 incoming walkers
+Process 2 done
+Process 3 done
 ```
-
 ## 结论
 
 功能正常运行，测试通过。
 
 ## 其他说明
+
+须安装 g++
+
 
 在此项目中可能会碰到死锁的情况，如何预防死锁请参见这里。
 

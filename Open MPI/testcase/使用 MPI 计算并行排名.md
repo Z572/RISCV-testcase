@@ -40,12 +40,17 @@ Rank for 0.684195 on process 3 - 1
 
 ## 实际结果
 
+与预期效果一致
+
 ```
-mpirun -n 4  ./performing-parallel-rank-with-mpi/code/random_rank 100
+ubuntukylin@ubuntukylin:~/git/mpitutorial/tutorials$ cd performing-parallel-rank-with-mpi/code/ && make && mpirun -n 4 random_rank 100 2>&1 |tee /tmp/random_rank.log
+mpicc -c tmpi_rank.c
+mpicc -o random_rank random_rank.c tmpi_rank.o
+No protocol specified
 Rank for 0.840188 on process 0 - 2
-Rank for 0.253774 on process 2 - 0
-Rank for 0.740132 on process 3 - 1
-Rank for 0.972745 on process 1 - 3
+Rank for 0.082586 on process 1 - 1
+Rank for 0.972246 on process 2 - 3
+Rank for 0.073710 on process 3 - 0
 ```
 
 ## 结论

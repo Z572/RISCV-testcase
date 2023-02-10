@@ -45,27 +45,31 @@ clone 完成后，进入文件夹中的 tutorials 。
 
 ## 实际结果
 
+与预期效果一致
+
 ```
-mpirun -n 2  ./mpi-send-and-receive/code/ping_pong
+ubuntukylin@ubuntukylin:~/git/mpitutorial/tutorials$ cd mpi-send-and-receive/code/ && make && mpirun -n 2 ping_pong 2>&1 |tee /tmp/ping_pong.log
+make: Nothing to be done for 'all'.
+No protocol specified
 0 sent and incremented ping_pong_count 1 to 1
 1 received ping_pong_count 1 from 0
-1 sent and incremented ping_pong_count 2 to 0
 0 received ping_pong_count 2 from 1
 0 sent and incremented ping_pong_count 3 to 1
+1 sent and incremented ping_pong_count 2 to 0
 1 received ping_pong_count 3 from 0
-1 sent and incremented ping_pong_count 4 to 0
 0 received ping_pong_count 4 from 1
 0 sent and incremented ping_pong_count 5 to 1
-0 received ping_pong_count 6 from 1
-0 sent and incremented ping_pong_count 7 to 1
-0 received ping_pong_count 8 from 1
-0 sent and incremented ping_pong_count 9 to 1
+1 sent and incremented ping_pong_count 4 to 0
 1 received ping_pong_count 5 from 0
 1 sent and incremented ping_pong_count 6 to 0
+0 received ping_pong_count 6 from 1
+0 sent and incremented ping_pong_count 7 to 1
 1 received ping_pong_count 7 from 0
 1 sent and incremented ping_pong_count 8 to 0
 1 received ping_pong_count 9 from 0
 1 sent and incremented ping_pong_count 10 to 0
+0 received ping_pong_count 8 from 1
+0 sent and incremented ping_pong_count 9 to 1
 0 received ping_pong_count 10 from 1
 ```
 

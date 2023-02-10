@@ -50,9 +50,18 @@ Mean - 0.501100, Standard deviation = 0.301126
 
 ## 实际结果
 
+与预期效果一致
+
 ```
-mpirun -n 4  ./mpi-reduce-and-allreduce/code/reduce_stddev 100
-Mean - 0.486650, Standard deviation = 0.289384
+ubuntukylin@ubuntukylin:~/git/mpitutorial/tutorials$ cd mpi-reduce-and-allreduce/code/ && make && mpirun -n 2 reduce_stddev 100 2>&1 |tee /tmp/reduce_stddev.log
+mpicc -o reduce_avg reduce_avg.c
+mpicc -o reduce_stddev reduce_stddev.c -lm
+reduce_stddev.c: In function ‘main’:
+reduce_stddev.c:43:9: warning: implicit declaration of function ‘time’ [-Wimplicit-function-declaration]
+   43 |   srand(time(NULL)*world_rank); // Seed the random number generator of processes uniquely
+      |         ^~~~
+No protocol specified
+Mean - 0.515486, Standard deviation = 0.279320
 ```
 
 ## 结论

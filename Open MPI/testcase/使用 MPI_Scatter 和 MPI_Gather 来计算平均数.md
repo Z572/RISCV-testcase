@@ -54,12 +54,16 @@ Avg computed across original data is 0.478699
 
 ## 实际结果
 
-```
-mpirun -n 4  ./mpi-scatter-gather-and-allgather/code/avg 100
-Avg of all elements is 0.496958
-Avg computed across original data is 0.496958
-```
+与预期效果一致
 
+```
+ubuntukylin@ubuntukylin:~/git/mpitutorial/tutorials$ cd mpi-scatter-gather-and-allgather/code/ && make && mpirun -n 4 avg 100 2>&1 |tee /tmp/avg.log
+mpicc -o avg avg.c
+mpicc -o all_avg all_avg.c
+No protocol specified
+Avg of all elements is 0.517105
+Avg computed across original data is 0.517105
+```
 ## 结论
 
 功能正常运行，测试通过。
