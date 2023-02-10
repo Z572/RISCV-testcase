@@ -14,6 +14,12 @@
 
 ![Log_out-1](./img/Log_out-1.png)
 
+## 实际结果
+
+与预期效果一致
+
+![Log_out-2](./img/Log_out-2.png)
+
 ## 其他说明
 
 无。

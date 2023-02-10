@@ -12,6 +12,12 @@
 
 如下图所示，点击按钮后打开相应程序。![桌面docker栏功能测试-1](./img/桌面docker栏功能测试-1.png)
 
+## 实际结果
+
+与预期效果一致 
+
+![桌面docker栏功能测试-1](./img/桌面docker栏功能测试-1.png)
+
 ## 其他说明
 
-由于浏览器没有预装软件，所以显示 Choose Preferred Application 。
+该测试是否命名错误 是否应为 dock 栏 而非 docker 栏。

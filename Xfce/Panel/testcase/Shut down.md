@@ -14,6 +14,12 @@
 
 ![shut_down-1](./img/shut_down-1.png)
 
+## 实际结果
+
+与预期效果一致
+
+![shut_down-2](./img/shut_down-2.png)
+
 ## 其他说明
 
 无。

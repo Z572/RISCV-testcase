@@ -14,6 +14,12 @@
 
 如上图所示，Terminal Emulator 正常调出。
 
+## 实际结果
+
+与预期效果一致
+
+![Terminal_Emulator-2](./img/Terminal_Emulator-2.png)
+
 ## 其他说明
 
 无。

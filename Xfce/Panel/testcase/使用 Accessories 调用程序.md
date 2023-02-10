@@ -14,6 +14,12 @@
 
 如上图所示， Accessories 能够正常调用相应程序。
 
+## 实际结果
+
+与预期效果一致
+
+![使用Accessories调用程序-2](./img/使用Accessories调用程序-2.png)
+
 ## 其他说明
 
 无。

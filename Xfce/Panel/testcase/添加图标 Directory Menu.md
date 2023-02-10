@@ -14,6 +14,12 @@
 
 如上图所示， Directory Menu 正常添加。
 
+## 实际结果
+
+与预期效果一致
+
+![添加图标Directory_Menu-2](./img/添加图标Directory_Menu-2.png)
+
 ## 其他说明
 
 无。

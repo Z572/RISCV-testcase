@@ -14,6 +14,12 @@
 
 如上图所示，功能正常运行。
 
+## 实际结果
+
+与预期效果一致
+
+![Mail_Reader-2](./img/Mail_Reader-2.png)
+
 ## 其他说明
 
 由于没有安装对应的软件，所以显示 Choose Preferred Application 。

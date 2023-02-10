@@ -24,6 +24,11 @@ xfce4-power-manager -c
 
 Power Manager 正常启动。
 
-## 其他说明
+## 实际结果
 
-无。
+与预期效果一致
+
+![Power_manager_功能-4](./img/Power_manager_功能-4.png)
+
+## 其他说明
+未包含在 xfce4 包中, `apt install xfce4-power-manager`。

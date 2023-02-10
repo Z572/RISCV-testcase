@@ -18,6 +18,16 @@
 
 如上图所示，Workplace 切换正常。
 
+## 实际结果
+
+与预期效果一致
+
+![Workplace切换-3](./img/Workplace切换-3.png)
+
+![Workplace切换-4](./img/Workplace切换-4.png)
+
+
+
 ## 其他说明
 
 无。

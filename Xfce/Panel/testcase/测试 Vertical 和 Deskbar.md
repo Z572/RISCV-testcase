@@ -20,6 +20,19 @@
 
 如上图所示，功能正常。
 
+## 实际结果
+
+与预期效果一致
+
+下图为 Vertical ：
+
+![Vertical-2](./img/Vertical-2.png)
+
+下图为 Deskbar ：
+
+![Deskbar-2](./img/Deskbar-2.png)
+
+
 ## 其他说明
 
 无。

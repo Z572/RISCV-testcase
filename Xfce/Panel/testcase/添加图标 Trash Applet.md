@@ -16,9 +16,9 @@ Trash Applet 图标正常添加。
 
 ## 实际结果
 
-![添加图标Trash_Applet-2](./img/添加图标Trash_Applet-2.png)
+与预期效果一致。
 
-如上图所示，存在 bug ，添加以后，右上角的图标不能正常显示，点击以后显示失败连接。
+![添加图标Trash_Applet](./img/添加图标Trash_Applet-3.png)
 
 ## 其他说明
 

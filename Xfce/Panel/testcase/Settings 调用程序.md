@@ -14,6 +14,13 @@
 
 如上图所示，Accessibility 正常调出。
 
+## 实际结果
+
+与预期效果一致
+
+![Settings_调用程序-2](./img/Settings_调用程序-2.png)
+
+
 ## 其他说明
 
 无。
