@@ -659,7 +659,7 @@
 
 
 #+DOWNLOADED: screenshot @ 2023-03-14 10:16:11
-[[file:peony_打开文件/2023-03-14_10-16-11_screenshot.png]]
+[[file:peony_打开文件/peony_打开文件-1.png]]
 
 
 ** 预期结果
@@ -684,7 +684,6 @@
 
 #+DOWNLOADED: screenshot @ 2023-03-14 10:21:52
 [[file:peony_文件打_Label/peony_文件打_Label-2.png]]
-
 ** 实际结果
 与预期相符
 ** 其他说明
@@ -698,7 +697,7 @@
 ** 预期结果
 
 #+DOWNLOADED: screenshot @ 2023-03-14 10:25:07
-[[file:peony_根据_tag_筛选/2023-03-14_10-25-07_screenshot.png]]
+[[file:peony_根据_tag_筛选/peony_根据_tag_筛选-1.png]]
 
 
 ** 实际结果
@@ -714,7 +713,7 @@
 
 
 #+DOWNLOADED: screenshot @ 2023-03-14 10:26:22
-[[file:peony_多tab/2023-03-14_10-26-22_screenshot.png]]
+[[file:peony_多tab/peony_多tab-1.png]]
 
 
 ** 预期结果
@@ -722,7 +721,7 @@ tab 能够正常使用
 
 
 #+DOWNLOADED: screenshot @ 2023-03-14 10:27:02
-[[file:peony_多tab/2023-03-14_10-27-02_screenshot.png]]
+[[file:peony_多tab/peony_多tab-2.png]]
 
 
 ** 实际结果
@@ -739,16 +738,16 @@ tab 能够正常使用
 
 
 #+DOWNLOADED: screenshot @ 2023-03-14 10:34:34
-[[file:peony_压缩文件/2023-03-14_10-34-34_screenshot.png]]
+[[file:peony_压缩文件/peony_压缩文件-1.png]]
 
 
 #+DOWNLOADED: screenshot @ 2023-03-14 10:35:53
-[[file:peony_压缩文件/2023-03-14_10-35-53_screenshot.png]]
+[[file:peony_压缩文件/peony_压缩文件-2.png]]
 
 
 
 #+DOWNLOADED: screenshot @ 2023-03-14 10:36:35
-[[file:peony_压缩文件/2023-03-14_10-36-35_screenshot.png]]
+[[file:peony_压缩文件/peony_压缩文件-3.png]]
 
 
 ** 预期结果
@@ -766,14 +765,14 @@ tab 能够正常使用
 
 剪切：
 #+DOWNLOADED: screenshot @ 2023-03-14 10:38:18
-[[file:peony_复制剪切粘贴文件/2023-03-14_10-38-18_screenshot.png]]
+[[file:peony_复制剪切粘贴文件/peony_复制剪切粘贴文件-1.png]]
 
 
 3. 粘贴
 
 
 #+DOWNLOADED: screenshot @ 2023-03-14 10:38:57
-[[file:peony_复制剪切粘贴文件/2023-03-14_10-38-57_screenshot.png]]
+[[file:peony_复制剪切粘贴文件/peony_复制剪切粘贴文件-2.png]]
 
 
 ** 预期结果
@@ -790,13 +789,13 @@ tab 能够正常使用
 2. 选择文件右键 Properties
 
 #+DOWNLOADED: screenshot @ 2023-03-14 11:43:51
-[[file:peony_显示文件属性/2023-03-14_11-43-51_screenshot.png]]
+[[file:peony_显示文件属性/peony_显示文件属性-1.png]]
 
 3. 显示 properties
 
 
 #+DOWNLOADED: screenshot @ 2023-03-14 11:44:22
-[[file:peony_显示文件属性/2023-03-14_11-44-22_screenshot.png]]
+[[file:peony_显示文件属性/peony_显示文件属性-2.png]]
 
 
 ** 预期结果
@@ -814,13 +813,13 @@ tab 能够正常使用
 
 
 #+DOWNLOADED: screenshot @ 2023-03-14 11:46:16
-[[file:peony_显示预览/2023-03-14_11-46-16_screenshot.png]]
+[[file:peony_显示预览/peony_显示预览-1.png]]
 
 
 ** 预期结果
 正常显示
 #+DOWNLOADED: screenshot @ 2023-03-14 11:46:49
-[[file:peony_显示预览/2023-03-14_11-46-49_screenshot.png]]
+[[file:peony_显示预览/peony_显示预览-2.png]]
 
 ** 实际结果
 与预期相符
@@ -855,7 +854,7 @@ tab 能够正常使用
 3. 点击下列三个按钮
 
 #+DOWNLOADED: screenshot @ 2023-03-14 11:52:51
-[[file:桌面拖拽/缩小/放大/隐藏应用程序界面/2023-03-14_11-52-51_screenshot.png]]
+[[file:img/桌面拖拽_修改大小_缩小_放大_最小化_关闭_隐藏应用程序界面-1.png]]
 
 
 ** 预期结果
@@ -871,7 +870,7 @@ tab 能够正常使用
 ** 操作步骤
 点击右下角天气
 #+DOWNLOADED: screenshot @ 2023-03-14 11:59:51
-[[file:任务栏打开天气/2023-03-14_11-59-51_screenshot.png]]
+[[file:任务栏打开天气/任务栏打开天气-1.png]]
 
 ** 预期结果
 弹出天气
