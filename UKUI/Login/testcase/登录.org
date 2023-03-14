@@ -6,7 +6,7 @@
 2. 输入密码
 3. 登录
 
-#+DOWNLOADED: screenshot @ 2023-03-13 14:13:06
+
 [[file:测试登录界面相关功能/测试登录-1.png]]
 
 
@@ -27,7 +27,7 @@
 
 1. 点击右下角关机电源图标，弹出如下界面
 
-#+DOWNLOADED: screenshot @ 2023-03-13 14:16:04
+
 [[file:登录界面关机与重启/登录界面关机与重启-1.png]]
 
 2. 点击各个按钮是否预期关机或重启
@@ -54,13 +54,13 @@
 
 正常打开软件
 
-#+DOWNLOADED: screenshot @ 2023-03-13 14:40:54
+
 [[file:使用启动器启动软件/使用启动器启动软件-1.png]]
 
 
 成功打开 peony
 
-#+DOWNLOADED: screenshot @ 2023-03-13 14:43:04
+
 [[file:使用启动器启动软件/使用启动器启动软件-2.png]]
 
 
@@ -79,11 +79,11 @@
 点击左下角启动器，点击搜索框，输入文本，能够正常搜索
 
 
-#+DOWNLOADED: screenshot @ 2023-03-13 14:45:20
+
 [[file:使用启动器搜索/使用启动器搜索-1.png]]
 
 
-#+DOWNLOADED: screenshot @ 2023-03-13 14:45:45
+
 [[file:使用启动器搜索/使用启动器搜索-2.png]]
 
 
@@ -105,12 +105,12 @@
 ** 操作步骤
 
 点击左下角启动器，点击启动器右上角按钮
-#+DOWNLOADED: screenshot @ 2023-03-13 14:47:53
+
 [[file:启动器全屏/启动器全屏-1.png]]
 
 
 
-#+DOWNLOADED: screenshot @ 2023-03-13 14:48:17
+
 [[file:启动器全屏/启动器全屏-2.png]]
 
 
@@ -131,7 +131,7 @@
 ** 操作步骤
 
 点击左下角启动器，点击启动器右下角按钮
-#+DOWNLOADED: screenshot @ 2023-03-13 14:52:55
+
 [[file:启动器打开设置/启动器打开设置-1.png]]
 
 
@@ -139,7 +139,7 @@
 
 打开设置
 
-#+DOWNLOADED: screenshot @ 2023-03-13 14:55:43
+
 [[file:启动器打开设置/启动器打开设置-2.png]]
 
 
@@ -155,13 +155,13 @@
 
 点击左下角启动器，点击启动器右下角按钮
 
-#+DOWNLOADED: screenshot @ 2023-03-13 15:08:58
+
 [[file:启动器点击头像/启动器点击头像-1.png]]
 
 ** 预期结果
 成功打开或切换到设置的用户界面。
 
-#+DOWNLOADED: screenshot @ 2023-03-13 15:11:20
+
 [[file:启动器点击头像/启动器点击头像-2.png]]
 
 ** 实际结果
@@ -177,10 +177,10 @@
 点击左下角启动器，点击启动器右下角按钮
 
 
-#+DOWNLOADED: screenshot @ 2023-03-13 15:17:34
+
 [[file:启动器点击_computer/启动器点击_computer-1.png]]
 
-#+DOWNLOADED: screenshot @ 2023-03-13 15:15:07
+
 [[file:启动器点击_computer-2.png]]
 
 ** 预期结果
@@ -197,11 +197,11 @@
 ** 操作步骤
 点击左下角启动器，点击启动器右下角按钮
 
-#+DOWNLOADED: screenshot @ 2023-03-13 15:18:52
+
 [[file:使用启动进行关机重启/使用启动进行关机重启等操作-1.png]]
 
 
-#+DOWNLOADED: screenshot @ 2023-03-13 15:22:29
+
 [[file:使用启动进行关机重启/使用启动进行关机重启等操作-2.png]]
 
 ** 预期结果
@@ -218,14 +218,14 @@
 
 右键桌面选择 New... >  Empty File 或 Folder
 
-#+DOWNLOADED: screenshot @ 2023-03-13 15:32:16
+
 [[file:桌面新建文件/文件夹/桌面新建文件_文件夹-1.png]]
 
 
 
 ** 预期结果
 成功创建文件/文件夹
-#+DOWNLOADED: screenshot @ 2023-03-13 15:33:50
+
 [[file:桌面新建文件/文件夹/桌面新建文件_文件夹-2.png]]
 
 ** 实际结果
@@ -240,7 +240,7 @@
 2. 按下 F2
 3. 输入新名
 
-#+DOWNLOADED: screenshot @ 2023-03-13 15:36:10
+
 [[file:重命名文件/文件夹/重命名文件_文件夹-1.png]]
 
 ** 预期结果
@@ -248,7 +248,7 @@
 成功改名
 
 
-#+DOWNLOADED: screenshot @ 2023-03-13 15:37:20
+
 [[file:重命名文件/文件夹/重命名文件_文件夹-2.png]]
 
 ** 实际结果
@@ -266,7 +266,7 @@
 
 文件成功移动位置
 
-#+DOWNLOADED: screenshot @ 2023-03-13 15:45:04
+
 [[file:拖拽文件/拖拽文件-1.png]]
 
 
@@ -282,7 +282,7 @@
 ** 操作步骤
 右键选择 select all
 
-#+DOWNLOADED: screenshot @ 2023-03-13 16:04:41
+
 [[file:桌面选择所有文件/桌面选择所有文件-1.png]]
 
 
@@ -290,7 +290,7 @@
 
 选择所有
 
-#+DOWNLOADED: screenshot @ 2023-03-13 16:05:11
+
 [[file:桌面选择所有文件/桌面选择所有文件-2.png]]
 
 
@@ -305,7 +305,7 @@
 选择文件并删除
 
 
-#+DOWNLOADED: screenshot @ 2023-03-13 16:06:26
+
 [[file:删除文件/文件夹/删除文件_文件夹-1.png]]
 
 
@@ -313,7 +313,7 @@
 成功删除文件且删除的文件位于 Trans
 
 
-#+DOWNLOADED: screenshot @ 2023-03-13 16:07:59
+
 [[file:删除文件/文件夹/删除文件_文件夹-2.png]]
 
 ** 实际结果
@@ -327,12 +327,12 @@
 ** 操作步骤
 点击右下角图标
 
-#+DOWNLOADED: screenshot @ 2023-03-13 16:11:53
+
 [[file:显示_taskview/显示_taskview-1.png]]
 
 ** 预期结果
 打开 taskview
-#+DOWNLOADED: screenshot @ 2023-03-13 16:13:24
+
 [[file:显示_taskview/显示_taskview-2.png]]
 
 ** 实际结果
@@ -346,7 +346,7 @@
 点击右下角时间，显示日历且能正常操作
 
 
-#+DOWNLOADED: screenshot @ 2023-03-13 16:22:41
+
 [[file:选择时间/选择时间-1.png]]
 
 
@@ -362,14 +362,14 @@
 ** 操作步骤
 点击右下角阳光
 
-#+DOWNLOADED: screenshot @ 2023-03-13 16:27:35
+
 [[file:任务栏切换夜间模式/任务栏切换夜间模式-1.png]]
 
 
 ** 预期结果
 成功切换夜间模式
 
-#+DOWNLOADED: screenshot @ 2023-03-13 16:27:49
+
 [[file:任务栏切换夜间模式/任务栏切换夜间模式-2.png]]
 
 ** 实际结果
@@ -382,7 +382,7 @@
 ** 操作步骤
 点击右下角图标
 
-#+DOWNLOADED: screenshot @ 2023-03-13 16:35:35
+
 [[file:show_desktop/show_desktop-1.png]]
 
 ** 预期结果
@@ -396,7 +396,7 @@
 
 ** 操作步骤
 右键 View Type... ， 选择其中一项
-#+DOWNLOADED: screenshot @ 2023-03-13 16:39:15
+
 [[file:修改图标大小/修改图标大小-1.png]]
 
 ** 预期结果
@@ -412,12 +412,12 @@
 右键选择 open directory in terminal
 
 
-#+DOWNLOADED: screenshot @ 2023-03-13 16:41:56
+
 [[file:在桌面打开终端/在桌面打开终端-1.png]]
 
 ** 预期结果
 终端被打开
-#+DOWNLOADED: screenshot @ 2023-03-13 16:41:09
+
 [[file:在桌面打开终端/在桌面打开终端-2.png]]
 
 ** 实际结果
@@ -430,18 +430,18 @@
 ** 操作步骤
 右键选择 set background
 
-#+DOWNLOADED: screenshot @ 2023-03-13 16:42:57
+
 [[file:设置背景/设置背景-1.png]]
 
 选择其中一个
 
 
-#+DOWNLOADED: screenshot @ 2023-03-13 17:01:12
+
 [[file:设置背景/设置背景-2.png]]
 
 ** 预期结果
 
-#+DOWNLOADED: screenshot @ 2023-03-13 17:00:26
+
 [[file:设置背景/设置背景-3.png]]
 
 ** 实际结果
@@ -454,10 +454,10 @@
 
 ** 操作步骤
 打开设置，选择 account ，点击 Add new user
-#+DOWNLOADED: screenshot @ 2023-03-13 17:42:37
+
 [[file:在设置中添加用户/在设置中添加用户-1.png]]
 
-#+DOWNLOADED: screenshot @ 2023-03-13 17:43:26
+
 [[file:在设置中添加用户/在设置中添加用户-2.png]]
 选择
 ** 预期结果
@@ -474,7 +474,7 @@
 2. 选择搜索框
 3. 输入文本搜索
 
-#+DOWNLOADED: screenshot @ 2023-03-14 09:20:03
+
 [[file:设置界面搜索/设置界面搜索-1.png]]
 
 ** 预期结果
@@ -490,12 +490,12 @@
 打开设置
 选择 Datetime > Area > First Language
 
-#+DOWNLOADED: screenshot @ 2023-03-14 09:29:00
+
 [[file:设置界面修改语言/设置界面修改语言-1.png]]
 
 选择一种语言，在弹出页面中选择重启
 
-#+DOWNLOADED: screenshot @ 2023-03-14 09:29:30
+
 [[file:设置界面修改语言/设置界面修改语言-2.png]]
 
 ** 预期结果
@@ -504,7 +504,7 @@
 
 ** 实际结果
 与预期不符
-#+DOWNLOADED: screenshot @ 2023-03-14 09:45:53
+
 [[file:设置界面修改语言/设置界面修改语言-3.png]]
 
 登录界面语言被改变
@@ -522,7 +522,7 @@
 2. 选择网络
 3. 查看/修改相应选项
 
-#+DOWNLOADED: screenshot @ 2023-03-14 12:29:39
+
 [[file:设置显示网络/设置显示网络-1.png]]
 
 ** 预期结果
@@ -537,11 +537,11 @@
 ** 操作步骤
 1. 打开 Trash
 
-#+DOWNLOADED: screenshot @ 2023-03-14 09:49:27
+
 [[file:清空_Trash/清空_Trash-1.png]]
 2. 点击 Clear
 
-#+DOWNLOADED: screenshot @ 2023-03-14 09:50:20
+
 [[file:清空_Trash/清空_Trash-2.png]]
 3. 选择 yes
 4. 内容被清空。
@@ -558,14 +558,14 @@
 
 1. 打开 peony
 
-#+DOWNLOADED: screenshot @ 2023-03-14 09:54:40
+
 [[file:peony_缩放文件大小/peony_缩放文件大小-1.png]]
 
 
 2. 拖拽右下角
 
 
-#+DOWNLOADED: screenshot @ 2023-03-14 09:54:50
+
 [[file:peony_缩放文件大小/peony_缩放文件大小-2.png]]
 
 
@@ -574,7 +574,7 @@
 
 显示大小被改变
 
-#+DOWNLOADED: screenshot @ 2023-03-14 09:55:13
+
 [[file:peony_缩放文件大小/peony_缩放文件大小-3.png]]
 
 
@@ -588,7 +588,7 @@
 ** 操作步骤
 1. 打开 peony
 
-#+DOWNLOADED: screenshot @ 2023-03-14 10:02:47
+
 [[file:peony排序/peony排序-1.png]]
 
 2. 选择 Modified Date 等
@@ -612,7 +612,7 @@
 2. 点击地址栏
    
 
-#+DOWNLOADED: screenshot @ 2023-03-14 10:05:29
+
 [[file:peony_点击地址栏/peony_点击地址栏-1.png]]
 
 ** 预期结果
@@ -632,7 +632,7 @@
 3. 点击前进后退
    
 
-#+DOWNLOADED: screenshot @ 2023-03-14 10:07:20
+
 [[file:peony_测试前进后退/peony_测试前进后退-1.png]]
 
    
@@ -651,13 +651,13 @@
 2. 点击搜索按钮
    
 
-#+DOWNLOADED: screenshot @ 2023-03-14 10:08:26
+
 [[file:peony_搜索/peony_搜索-1.png]]
 
 3. 搜索
 
 
-#+DOWNLOADED: screenshot @ 2023-03-14 10:08:49
+
 [[file:peony_搜索/peony_搜索-2.png]]
 
 ** 预期结果
@@ -674,7 +674,7 @@
 2. 选择文件双击 或者 右键点击 Open with...
 
 
-#+DOWNLOADED: screenshot @ 2023-03-14 10:16:11
+
 [[file:peony_打开文件/peony_打开文件-1.png]]
 
 
@@ -692,13 +692,13 @@
 2. 右键文件 Add File Label... > Red
    
 
-#+DOWNLOADED: screenshot @ 2023-03-14 10:21:24
+
 [[file:peony_文件打_Label/peony_文件打_Label-1.png]]
 
 
 ** 预期结果
 
-#+DOWNLOADED: screenshot @ 2023-03-14 10:21:52
+
 [[file:peony_文件打_Label/peony_文件打_Label-2.png]]
 ** 实际结果
 与预期相符
@@ -712,7 +712,7 @@
 2. 给文件打 Label， 见 [peony 文件打 Label](./)
 ** 预期结果
 
-#+DOWNLOADED: screenshot @ 2023-03-14 10:25:07
+
 [[file:peony_根据_tag_筛选/peony_根据_tag_筛选-1.png]]
 
 
@@ -728,7 +728,7 @@
 2. 点击 加号图标
 
 
-#+DOWNLOADED: screenshot @ 2023-03-14 10:26:22
+
 [[file:peony_多tab/peony_多tab-1.png]]
 
 
@@ -736,7 +736,7 @@
 tab 能够正常使用
 
 
-#+DOWNLOADED: screenshot @ 2023-03-14 10:27:02
+
 [[file:peony_多tab/peony_多tab-2.png]]
 
 
@@ -753,16 +753,16 @@ tab 能够正常使用
 2. 右键文件选择 compress...
 
 
-#+DOWNLOADED: screenshot @ 2023-03-14 10:34:34
+
 [[file:peony_压缩文件/peony_压缩文件-1.png]]
 
 
-#+DOWNLOADED: screenshot @ 2023-03-14 10:35:53
+
 [[file:peony_压缩文件/peony_压缩文件-2.png]]
 
 
 
-#+DOWNLOADED: screenshot @ 2023-03-14 10:36:35
+
 [[file:peony_压缩文件/peony_压缩文件-3.png]]
 
 
@@ -780,14 +780,14 @@ tab 能够正常使用
 2. 选择文件复制/剪切   
 
 剪切：
-#+DOWNLOADED: screenshot @ 2023-03-14 10:38:18
+
 [[file:peony_复制剪切粘贴文件/peony_复制剪切粘贴文件-1.png]]
 
 
 3. 粘贴
 
 
-#+DOWNLOADED: screenshot @ 2023-03-14 10:38:57
+
 [[file:peony_复制剪切粘贴文件/peony_复制剪切粘贴文件-2.png]]
 
 
@@ -804,13 +804,13 @@ tab 能够正常使用
 1. 打开 peony
 2. 选择文件右键 Properties
 
-#+DOWNLOADED: screenshot @ 2023-03-14 11:43:51
+
 [[file:peony_显示文件属性/peony_显示文件属性-1.png]]
 
 3. 显示 properties
 
 
-#+DOWNLOADED: screenshot @ 2023-03-14 11:44:22
+
 [[file:peony_显示文件属性/peony_显示文件属性-2.png]]
 
 
@@ -828,13 +828,13 @@ tab 能够正常使用
 2. 点击右上角
 
 
-#+DOWNLOADED: screenshot @ 2023-03-14 11:46:16
+
 [[file:peony_显示预览/peony_显示预览-1.png]]
 
 
 ** 预期结果
 正常显示
-#+DOWNLOADED: screenshot @ 2023-03-14 11:46:49
+
 [[file:peony_显示预览/peony_显示预览-2.png]]
 
 ** 实际结果
@@ -847,14 +847,14 @@ tab 能够正常使用
 ** 操作步骤
 1. 打开 peony
 2. 点击 Show Hidden
-#+DOWNLOADED: screenshot @ 2023-03-14 11:48:24
+
 [[file:peony_显示隐藏文件/peony_显示隐藏文件-1.png]]
 
 ** 预期结果
 看见隐藏文件
 
 
-#+DOWNLOADED: screenshot @ 2023-03-14 11:49:17
+
 [[file:peony_显示隐藏文件/peony_显示隐藏文件-2.png]]
 
 ** 实际结果
@@ -869,7 +869,7 @@ tab 能够正常使用
 2. 鼠标放置程序边缘拖拽
 3. 点击下列三个按钮
 
-#+DOWNLOADED: screenshot @ 2023-03-14 11:52:51
+
 [[file:img/桌面拖拽_修改大小_缩小_放大_最小化_关闭_隐藏应用程序界面-1.png]]
 
 
@@ -885,7 +885,7 @@ tab 能够正常使用
 
 ** 操作步骤
 点击右下角天气
-#+DOWNLOADED: screenshot @ 2023-03-14 11:59:51
+
 [[file:任务栏打开天气/任务栏打开天气-1.png]]
 
 ** 预期结果
@@ -901,7 +901,7 @@ tab 能够正常使用
 1. 点击任务栏右下角音量
 2. 调节
 
-#+DOWNLOADED: screenshot @ 2023-03-14 12:02:53
+
 [[file:任务栏修改音量/任务栏修改音量-1.png]]
 
 
@@ -919,7 +919,7 @@ tab 能够正常使用
    
 ** 预期结果
 弹出相应界面
-#+DOWNLOADED: screenshot @ 2023-03-14 12:05:11
+
 [[file:任务栏sidebar/任务栏sidebar-1.png]]
 
 ** 实际结果
@@ -949,7 +949,7 @@ tab 能够正常使用
 1. 随机打开应用程序
 2. 右键点击任务栏相应程序 点击 add to taskbar
 
-#+DOWNLOADED: screenshot @ 2023-03-14 12:18:19
+
 [[file:任务栏_add_to_taskbar/任务栏_add_to_taskbar-1.png]]
 
 
@@ -958,7 +958,7 @@ tab 能够正常使用
 关闭程序后，图标依旧在任务栏上
 
 
-#+DOWNLOADED: screenshot @ 2023-03-14 12:22:33
+
 [[file:任务栏_add_to_taskbar/任务栏_add_to_taskbar-2.png]]
 
 ** 实际结果
@@ -975,7 +975,7 @@ tab 能够正常使用
 3. 弹出 Warning 界面，点击 Terminate Application xxx
 
 
-#+DOWNLOADED: screenshot @ 2023-03-14 12:21:49
+
 [[file:关闭卡死应用/关闭卡死应用-1.png]]
 
 ** 预期结果
@@ -989,7 +989,7 @@ tab 能够正常使用
 
 ** 操作步骤
 1. 右键任务栏，选择 Adjustment Size/ Adjustment Position
-#+DOWNLOADED: screenshot @ 2023-03-14 12:57:13
+
 [[file:任务栏修改位置与大小/任务栏修改位置与大小-1.png]]
 
 
@@ -997,7 +997,7 @@ tab 能够正常使用
 
 成功修改任务栏位置与大小
 
-#+DOWNLOADED: screenshot @ 2023-03-14 12:58:32
+
 [[file:任务栏修改位置与大小/任务栏修改位置与大小-2.png]]
 
 ** 实际结果
@@ -1014,7 +1014,7 @@ tab 能够正常使用
 2. 选择 Hide Panel
 
 
-#+DOWNLOADED: screenshot @ 2023-03-14 13:00:39
+
 [[file:隐藏任务栏/隐藏任务栏-1.png]]
 
 ** 预期结果
@@ -1046,7 +1046,7 @@ tab 能够正常使用
 ** 操作步骤
 1. 右键点击任务栏选择 Lock This Panel
 
-#+DOWNLOADED: screenshot @ 2023-03-14 13:07:00
+
 [[file:锁定任务栏/锁定任务栏-1.png]]
 
 2. 拖拽任务栏
@@ -1067,7 +1067,7 @@ tab 能够正常使用
 2. 打开 Trash
 3. 右键文件选择 Restore
 
-#+DOWNLOADED: screenshot @ 2023-03-14 15:07:15
+
 [[file:Trash_恢复文件/Trash_恢复文件-1.png]]
 
 ** 预期结果
@@ -1082,7 +1082,7 @@ tab 能够正常使用
 ** 操作步骤
 1. 随机打开应用程序
 2. 打开 system monitor
-#+DOWNLOADED: screenshot @ 2023-03-14 13:19:49
+
 [[file:system_monitor/system_monitor_1.png]]
 
 3. 对之前创建的程序进行 stop process/Continue process/End process/Kill process 等操作。
@@ -1101,7 +1101,7 @@ tab 能够正常使用
 3. 输入文本   
 ** 预期结果
 成功筛选
-#+DOWNLOADED: screenshot @ 2023-03-14 14:00:52
+
 [[file:system_monitor_搜索/system_monitor_搜索-1.png]]
 
 ** 实际结果
@@ -1115,7 +1115,7 @@ tab 能够正常使用
 1. 打开 system monitor
 2. 点击 Resources
 3. 成功查看cpu/内存/网络使用
-#+DOWNLOADED: screenshot @ 2023-03-14 14:02:41
+
 [[file:system_monitor_查看cpu/内存/网络使用/system monitor_查看cpu_内存_网络使用.png]]
 
 ** 预期结果
@@ -1131,13 +1131,13 @@ tab 能够正常使用
 1. 打开 system monitor
 2. 点击 File Systems
 
-#+DOWNLOADED: screenshot @ 2023-03-14 14:04:28
+
 [[file:system_monitor_查看_File_Systems/system_monitor_查看_File_Systems-1.png]]
 
 
 3. 成功查看File Systems
 
-#+DOWNLOADED: screenshot @ 2023-03-14 14:04:43
+
 [[file:system_monitor_查看_File_Systems/system_monitor_查看_File_Systems-2.png]]
 
 
