@@ -780,3 +780,206 @@ tab 能够正常使用
 ** 其他说明
 
 无。
+* peony 显示文件属性
+
+** 操作步骤
+1. 打开 peony
+2. 选择文件右键 Properties
+
+#+DOWNLOADED: screenshot @ 2023-03-14 11:43:51
+[[file:peony_显示文件属性/2023-03-14_11-43-51_screenshot.png]]
+
+3. 显示 properties
+
+
+#+DOWNLOADED: screenshot @ 2023-03-14 11:44:22
+[[file:peony_显示文件属性/2023-03-14_11-44-22_screenshot.png]]
+
+
+** 预期结果
+正常显示 Properties
+** 实际结果
+与预期相符
+** 其他说明
+
+无。
+* peony 显示预览
+
+** 操作步骤
+1. 打开 peony
+2. 点击右上角
+
+
+#+DOWNLOADED: screenshot @ 2023-03-14 11:46:16
+[[file:peony_显示预览/2023-03-14_11-46-16_screenshot.png]]
+
+
+** 预期结果
+正常显示
+#+DOWNLOADED: screenshot @ 2023-03-14 11:46:49
+[[file:peony_显示预览/2023-03-14_11-46-49_screenshot.png]]
+
+** 实际结果
+与预期相符
+** 其他说明
+
+无。
+* peony 显示隐藏文件
+
+** 操作步骤
+1. 打开 peony
+2. 点击 Show Hidden
+#+DOWNLOADED: screenshot @ 2023-03-14 11:48:24
+[[file:peony_显示隐藏文件/2023-03-14_11-48-24_screenshot.png]]
+
+** 预期结果
+看见隐藏文件
+
+
+#+DOWNLOADED: screenshot @ 2023-03-14 11:49:17
+[[file:peony_显示隐藏文件/2023-03-14_11-49-17_screenshot.png]]
+
+** 实际结果
+与预期相符
+** 其他说明
+
+无。
+* 桌面拖拽/修改大小/缩小/放大/最小化/关闭/隐藏应用程序界面
+
+** 操作步骤
+1. 随机打开 gui 应用程序
+2. 鼠标放置程序边缘拖拽
+3. 点击下列三个按钮
+
+#+DOWNLOADED: screenshot @ 2023-03-14 11:52:51
+[[file:桌面拖拽/缩小/放大/隐藏应用程序界面/2023-03-14_11-52-51_screenshot.png]]
+
+
+** 预期结果
+能够正常放大缩小拖拽修改大小最小化最大化关闭全屏软件
+** 实际结果
+与预期相符
+** 其他说明
+
+无。
+
+* 任务栏打开天气
+
+** 操作步骤
+点击右下角天气
+#+DOWNLOADED: screenshot @ 2023-03-14 11:59:51
+[[file:任务栏打开天气/2023-03-14_11-59-51_screenshot.png]]
+
+** 预期结果
+弹出天气
+** 实际结果
+与预期相符
+** 其他说明
+
+无。
+* 任务栏修改音量
+
+** 操作步骤
+1. 点击任务栏右下角音量
+2. 调节
+
+#+DOWNLOADED: screenshot @ 2023-03-14 12:02:53
+[[file:任务栏修改音量/2023-03-14_12-02-53_screenshot.png]]
+
+
+** 预期结果
+声音相应变化
+** 实际结果
+无反应，可能与 qemu 配置有关
+** 其他说明
+
+无。
+* 任务栏sidebar
+
+** 操作步骤
+1. 点击任务栏右下角 sidebar
+   
+** 预期结果
+弹出相应界面
+#+DOWNLOADED: screenshot @ 2023-03-14 12:05:11
+[[file:任务栏sidebar/2023-03-14_12-05-11_screenshot.png]]
+
+** 实际结果
+与预期相符
+** 其他说明
+
+无。
+* 修改刷新率
+
+** 操作步骤
+1. 打开设置
+2. 点击 System
+3. 修改相应设置
+** 预期结果
+
+刷新率被修改
+** 实际结果
+点击 System 后程序卡住。
+** 其他说明
+
+无。
+
+* 任务栏 add to taskbar
+
+** 操作步骤
+
+1. 随机打开应用程序
+2. 右键点击任务栏相应程序 点击 add to taskbar
+
+#+DOWNLOADED: screenshot @ 2023-03-14 12:18:19
+[[file:任务栏_add_to_taskbar/任务栏_add_to_taskbar-1.png]]
+
+
+
+** 预期结果
+关闭程序后，图标依旧在任务栏上
+
+
+#+DOWNLOADED: screenshot @ 2023-03-14 12:22:33
+[[file:任务栏_add_to_taskbar/任务栏_add_to_taskbar-2.png]]
+
+** 实际结果
+与预期相符
+** 其他说明
+
+无。
+
+* 关闭卡死应用
+
+** 操作步骤
+1. 随机打开应用使其卡死
+2. 右键点击任务栏相应程序，点击 close
+3. 弹出 Warning 界面，点击 Terminate Application xxx
+
+
+#+DOWNLOADED: screenshot @ 2023-03-14 12:21:49
+[[file:关闭卡死应用/2023-03-14_12-21-49_screenshot.png]]
+
+** 预期结果
+能够关闭卡死应用程序
+** 实际结果
+与预期相符
+** 其他说明
+
+无。
+* 设置显示网络
+
+** 操作步骤
+1. 打开设置
+2. 选择网络
+3. 查看/修改相应选项
+
+#+DOWNLOADED: screenshot @ 2023-03-14 12:29:39
+[[file:设置显示网络/2023-03-14_12-29-39_screenshot.png]]
+
+** 预期结果
+成功查看/修改网络
+** 实际结果
+与预期相符
+** 其他说明
+无。
