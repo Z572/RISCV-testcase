@@ -1,19 +1,22 @@
-* 测试登录界面相关功能
+* 测试登录
 
 ** 操作步骤
 
 1. 进入切换账户
-2. 输入错误的密码
+2. 输入密码
 3. 登录
 
 #+DOWNLOADED: screenshot @ 2023-03-13 14:13:06
-[[file:测试登录界面相关功能/2023-03-13_14-13-06_screenshot.png]]
+[[file:测试登录界面相关功能/测试登录-1.png]]
 
 
 ** 预期结果
 
-提示密码错误
+输入错误密码 提示密码错误
+输入正确密码 进入
 
+** 实际结果
+与预期相符
 ** 其他说明
 
 无。
@@ -25,7 +28,7 @@
 1. 点击右下角关机电源图标，弹出如下界面
 
 #+DOWNLOADED: screenshot @ 2023-03-13 14:16:04
-[[file:登录界面关机与重启/2023-03-13_14-16-04_screenshot.png]]
+[[file:登录界面关机与重启/登录界面关机与重启-1.png]]
 
 2. 点击各个按钮是否预期关机或重启
    
@@ -52,13 +55,13 @@
 正常打开软件
 
 #+DOWNLOADED: screenshot @ 2023-03-13 14:40:54
-[[file:使用启动器启动软件/2023-03-13_14-40-54_screenshot.png]]
+[[file:使用启动器启动软件/使用启动器启动软件-1.png]]
 
 
 成功打开 peony
 
 #+DOWNLOADED: screenshot @ 2023-03-13 14:43:04
-[[file:使用启动器启动软件/2023-03-13_14-43-04_screenshot.png]]
+[[file:使用启动器启动软件/使用启动器启动软件-2.png]]
 
 
 ** 实际结果
@@ -77,11 +80,11 @@
 
 
 #+DOWNLOADED: screenshot @ 2023-03-13 14:45:20
-[[file:使用启动器搜索/2023-03-13_14-45-20_screenshot.png]]
+[[file:使用启动器搜索/使用启动器搜索-1.png]]
 
 
 #+DOWNLOADED: screenshot @ 2023-03-13 14:45:45
-[[file:使用启动器搜索/2023-03-13_14-45-45_screenshot.png]]
+[[file:使用启动器搜索/使用启动器搜索-2.png]]
 
 
 ** 预期结果
@@ -103,12 +106,12 @@
 
 点击左下角启动器，点击启动器右上角按钮
 #+DOWNLOADED: screenshot @ 2023-03-13 14:47:53
-[[file:启动器全屏/2023-03-13_14-47-53_screenshot.png]]
+[[file:启动器全屏/启动器全屏-1.png]]
 
 
 
 #+DOWNLOADED: screenshot @ 2023-03-13 14:48:17
-[[file:启动器全屏/2023-03-13_14-48-17_screenshot.png]]
+[[file:启动器全屏/启动器全屏-2.png]]
 
 
 ** 预期结果
@@ -129,7 +132,7 @@
 
 点击左下角启动器，点击启动器右下角按钮
 #+DOWNLOADED: screenshot @ 2023-03-13 14:52:55
-[[file:启动器打开设置/2023-03-13_14-52-55_screenshot.png]]
+[[file:启动器打开设置/启动器打开设置-1.png]]
 
 
 ** 预期结果
@@ -137,7 +140,7 @@
 打开设置
 
 #+DOWNLOADED: screenshot @ 2023-03-13 14:55:43
-[[file:启动器打开设置/2023-03-13_14-55-43_screenshot.png]]
+[[file:启动器打开设置/启动器打开设置-2.png]]
 
 
 ** 实际结果
@@ -153,13 +156,13 @@
 点击左下角启动器，点击启动器右下角按钮
 
 #+DOWNLOADED: screenshot @ 2023-03-13 15:08:58
-[[file:启动器点击头像/2023-03-13_15-08-58_screenshot.png]]
+[[file:启动器点击头像/启动器点击头像-1.png]]
 
 ** 预期结果
 成功打开或切换到设置的用户界面。
 
 #+DOWNLOADED: screenshot @ 2023-03-13 15:11:20
-[[file:启动器点击头像/2023-03-13_15-11-20_screenshot.png]]
+[[file:启动器点击头像/启动器点击头像-2.png]]
 
 ** 实际结果
 与预期相符
@@ -175,10 +178,10 @@
 
 
 #+DOWNLOADED: screenshot @ 2023-03-13 15:17:34
-[[file:启动器点击_computer/2023-03-13_15-17-33_screenshot.png]]
+[[file:启动器点击_computer/启动器点击_computer-1.png]]
 
 #+DOWNLOADED: screenshot @ 2023-03-13 15:15:07
-[[file:2023-03-13_15-15-07_screenshot.png]]
+[[file:启动器点击_computer-2.png]]
 
 ** 预期结果
 
@@ -195,11 +198,11 @@
 点击左下角启动器，点击启动器右下角按钮
 
 #+DOWNLOADED: screenshot @ 2023-03-13 15:18:52
-[[file:使用启动进行关机重启/2023-03-13_15-18-52_screenshot.png]]
+[[file:使用启动进行关机重启/使用启动进行关机重启等操作-1.png]]
 
 
 #+DOWNLOADED: screenshot @ 2023-03-13 15:22:29
-[[file:使用启动进行关机重启/2023-03-13_15-22-29_screenshot.png]]
+[[file:使用启动进行关机重启/使用启动进行关机重启等操作-2.png]]
 
 ** 预期结果
 
@@ -216,14 +219,14 @@
 右键桌面选择 New... >  Empty File 或 Folder
 
 #+DOWNLOADED: screenshot @ 2023-03-13 15:32:16
-[[file:桌面新建文件/文件夹/2023-03-13_15-32-16_screenshot.png]]
+[[file:桌面新建文件/文件夹/桌面新建文件_文件夹-1.png]]
 
 
 
 ** 预期结果
 成功创建文件/文件夹
 #+DOWNLOADED: screenshot @ 2023-03-13 15:33:50
-[[file:桌面新建文件/文件夹/2023-03-13_15-33-50_screenshot.png]]
+[[file:桌面新建文件/文件夹/桌面新建文件_文件夹-2.png]]
 
 ** 实际结果
 与预期相符
@@ -238,7 +241,7 @@
 3. 输入新名
 
 #+DOWNLOADED: screenshot @ 2023-03-13 15:36:10
-[[file:重命名文件/文件夹/2023-03-13_15-36-10_screenshot.png]]
+[[file:重命名文件/文件夹/重命名文件_文件夹-1.png]]
 
 ** 预期结果
 
@@ -246,7 +249,7 @@
 
 
 #+DOWNLOADED: screenshot @ 2023-03-13 15:37:20
-[[file:重命名文件/文件夹/2023-03-13_15-37-19_screenshot.png]]
+[[file:重命名文件/文件夹/重命名文件_文件夹-2.png]]
 
 ** 实际结果
 与预期相符
@@ -264,7 +267,7 @@
 文件成功移动位置
 
 #+DOWNLOADED: screenshot @ 2023-03-13 15:45:04
-[[file:拖拽文件/2023-03-13_15-45-04_screenshot.png]]
+[[file:拖拽文件/拖拽文件-1.png]]
 
 
 ** 实际结果
@@ -280,7 +283,7 @@
 右键选择 select all
 
 #+DOWNLOADED: screenshot @ 2023-03-13 16:04:41
-[[file:桌面选择所有文件/2023-03-13_16-04-41_screenshot.png]]
+[[file:桌面选择所有文件/桌面选择所有文件-1.png]]
 
 
 ** 预期结果
@@ -288,7 +291,7 @@
 选择所有
 
 #+DOWNLOADED: screenshot @ 2023-03-13 16:05:11
-[[file:桌面选择所有文件/2023-03-13_16-05-11_screenshot.png]]
+[[file:桌面选择所有文件/桌面选择所有文件-2.png]]
 
 
 ** 实际结果
@@ -303,7 +306,7 @@
 
 
 #+DOWNLOADED: screenshot @ 2023-03-13 16:06:26
-[[file:删除文件/文件夹/2023-03-13_16-06-26_screenshot.png]]
+[[file:删除文件/文件夹/删除文件_文件夹-1.png]]
 
 
 ** 预期结果
@@ -311,7 +314,7 @@
 
 
 #+DOWNLOADED: screenshot @ 2023-03-13 16:07:59
-[[file:删除文件/文件夹/2023-03-13_16-07-59_screenshot.png]]
+[[file:删除文件/文件夹/删除文件_文件夹-2.png]]
 
 ** 实际结果
 与预期相符
@@ -325,12 +328,12 @@
 点击右下角图标
 
 #+DOWNLOADED: screenshot @ 2023-03-13 16:11:53
-[[file:显示_taskview/2023-03-13_16-11-53_screenshot.png]]
+[[file:显示_taskview/显示_taskview-1.png]]
 
 ** 预期结果
 打开 taskview
 #+DOWNLOADED: screenshot @ 2023-03-13 16:13:24
-[[file:显示_taskview/2023-03-13_16-13-24_screenshot.png]]
+[[file:显示_taskview/显示_taskview-2.png]]
 
 ** 实际结果
 与预期相符
@@ -344,7 +347,7 @@
 
 
 #+DOWNLOADED: screenshot @ 2023-03-13 16:22:41
-[[file:选择时间/2023-03-13_16-22-41_screenshot.png]]
+[[file:选择时间/选择时间-1.png]]
 
 
 ** 预期结果
@@ -360,14 +363,14 @@
 点击右下角阳光
 
 #+DOWNLOADED: screenshot @ 2023-03-13 16:27:35
-[[file:任务栏切换夜间模式/2023-03-13_16-27-35_screenshot.png]]
+[[file:任务栏切换夜间模式/任务栏切换夜间模式-1.png]]
 
 
 ** 预期结果
 成功切换夜间模式
 
 #+DOWNLOADED: screenshot @ 2023-03-13 16:27:49
-[[file:任务栏切换夜间模式/2023-03-13_16-27-49_screenshot.png]]
+[[file:任务栏切换夜间模式/任务栏切换夜间模式-2.png]]
 
 ** 实际结果
 与预期相符
@@ -380,7 +383,7 @@
 点击右下角图标
 
 #+DOWNLOADED: screenshot @ 2023-03-13 16:35:35
-[[file:show_desktop/2023-03-13_16-35-35_screenshot.png]]
+[[file:show_desktop/show_desktop-1.png]]
 
 ** 预期结果
 所有应用程序隐藏
@@ -982,4 +985,150 @@ tab 能够正常使用
 ** 实际结果
 与预期相符
 ** 其他说明
+无。
+
+* 任务栏修改位置与大小
+
+** 操作步骤
+1. 右键任务栏，选择 Adjustment Size/ Adjustment Position
+#+DOWNLOADED: screenshot @ 2023-03-14 12:57:13
+[[file:任务栏修改位置与大小/2023-03-14_12-57-13_screenshot.png]]
+
+
+** 预期结果
+
+成功修改任务栏位置与大小
+
+#+DOWNLOADED: screenshot @ 2023-03-14 12:58:32
+[[file:任务栏修改位置与大小/2023-03-14_12-58-32_screenshot.png]]
+
+** 实际结果
+
+与预期相符
+
+** 其他说明
+
+无。
+* 隐藏任务栏
+
+** 操作步骤
+1. 右键任务栏
+2. 选择 Hide Panel
+
+
+#+DOWNLOADED: screenshot @ 2023-03-14 13:00:39
+[[file:隐藏任务栏/2023-03-14_13-00-39_screenshot.png]]
+
+** 预期结果
+
+任务栏隐藏
+鼠标放到相应位置时显示任务栏
+
+** 实际结果
+与预期相符
+** 其他说明
+
+无。
+* 拖拽任务栏
+
+** 操作步骤
+1. 左键拖拽任务栏
+2. 随机拖拽到上下左右边框
+
+** 预期结果
+任务栏位置被改变
+
+** 实际结果
+与预期相符
+** 其他说明
+
+无。
+* 锁定任务栏
+
+** 操作步骤
+1. 右键点击任务栏选择 Lock This Panel
+
+#+DOWNLOADED: screenshot @ 2023-03-14 13:07:00
+[[file:锁定任务栏/锁定任务栏-1.png]]
+
+2. 拖拽任务栏
+
+
+** 预期结果
+无法拖拽
+** 实际结果
+与预期相符
+** 其他说明
+
+无。
+* system monitor 
+
+** 操作步骤
+1. 随机打开应用程序
+2. 打开 system monitor
+#+DOWNLOADED: screenshot @ 2023-03-14 13:19:49
+[[file:system_monitor/2023-03-14_13-19-49_screenshot.png]]
+
+3. 对之前创建的程序进行 stop process/Continue process/End process/Kill process 等操作。
+** 预期结果
+正常 stop process/Continue process/End process/Kill process
+** 实际结果
+与预期相符
+** 其他说明
+
+无。
+* system monitor 搜索
+
+** 操作步骤
+1. 打开 system monitor
+2. 选择搜索框
+3. 输入文本   
+** 预期结果
+成功筛选
+#+DOWNLOADED: screenshot @ 2023-03-14 14:00:52
+[[file:system_monitor_搜索/2023-03-14_14-00-52_screenshot.png]]
+
+** 实际结果
+与预期相符
+** 其他说明
+
+无。
+* system monitor 查看cpu/内存/网络使用
+
+** 操作步骤
+1. 打开 system monitor
+2. 点击 Resources
+3. 成功查看cpu/内存/网络使用
+#+DOWNLOADED: screenshot @ 2023-03-14 14:02:41
+[[file:system_monitor_查看cpu/内存/网络使用/2023-03-14_14-02-41_screenshot.png]]
+
+** 预期结果
+成功查看cpu/内存/网络使用
+** 实际结果
+与预期相符
+** 其他说明
+
+无。
+* system monitor 查看 File Systems
+
+** 操作步骤
+1. 打开 system monitor
+2. 点击 File Systems
+
+#+DOWNLOADED: screenshot @ 2023-03-14 14:04:28
+[[file:system_monitor_查看_File_Systems/system_monitor_查看_File_Systems-1.png]]
+
+
+3. 成功查看File Systems
+
+#+DOWNLOADED: screenshot @ 2023-03-14 14:04:43
+[[file:system_monitor_查看_File_Systems/system_monitor_查看_File_Systems-2.png]]
+
+
+** 预期结果
+成功查看File Systems
+** 实际结果
+与预期相符
+** 其他说明
+
 无。
