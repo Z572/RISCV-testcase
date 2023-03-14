@@ -1,21 +1,3 @@
-# peony 点击地址栏
-## 操作步骤
-
-1. 打开 peony
-
-2. 点击地址栏
-
-[peony_点击地址栏-1](./img/peony_点击地址栏-1.png)
-
-## 预期结果
-
-进入相应目录
-
-## 实际结果
-与预期相符
-## 其他说明
-无。
-
 # peony 测试前进后退
 
 ## 操作步骤
@@ -25,7 +7,7 @@
    
 
 
-[peony_测试前进后退-1](./img/peony_测试前进后退-1.png)
+![peony_测试前进后退-1](./img/peony_测试前进后退-1.png)
 
    
    
@@ -44,13 +26,13 @@
    
 
 
-[peony_搜索-1](./img/peony_搜索-1.png)
+![peony_搜索-1](./img/peony_搜索-1.png)
 
 3. 搜索
 
 
 
-[peony_搜索-2](./img/peony_搜索-2.png)
+![peony_搜索-2](./img/peony_搜索-2.png)
 
 ## 预期结果
 正常进行搜索
@@ -65,7 +47,7 @@
 1. 打开 peony
 2. 选择文件双击 或者 右键点击 Open with...
 
-[peony_打开文件-1](./img/peony_打开文件-1.png)
+![peony_打开文件-1](./img/peony_打开文件-1.png)
 
 
 ## 预期结果
@@ -81,12 +63,12 @@
 1. 打开 peony
 2. 右键文件 Add File Label... > Red
    
-[peony_文件打_Label-1](./img/peony_文件打_Label-1.png)
+![peony_文件打_Label-1](./img/peony_文件打_Label-1.png)
 
 
 ## 预期结果
 
-[peony_文件打_Label-2](./img/peony_文件打_Label-2.png)
+![peony_文件打_Label-2](./img/peony_文件打_Label-2.png)
 ## 实际结果
 与预期相符
 ## 其他说明
@@ -100,7 +82,7 @@
 
 ## 预期结果
 
-[peony_根据_tag_筛选-1](./img/peony_根据_tag_筛选-1.png)
+![peony_根据_tag_筛选-1](./img/peony_根据_tag_筛选-1.png)
 
 ## 实际结果
 与预期相符
@@ -113,12 +95,12 @@
 1. 打开 peony
 2. 点击 加号图标
 
-[peony_多tab-1](./img/peony_多tab-1.png)
+![peony_多tab-1](./img/peony_多tab-1.png)
 
 ## 预期结果
 tab 能够正常使用
 
-[peony_多tab-2](./img/peony_多tab-2.png)
+![peony_多tab-2](./img/peony_多tab-2.png)
 
 ## 实际结果
 与预期相符
@@ -132,11 +114,11 @@ tab 能够正常使用
 1. 打开 peony
 2. 右键文件选择 compress...
 
-[peony_压缩文件-1](./img/peony_压缩文件-1.png)
+![peony_压缩文件-1](./img/peony_压缩文件-1.png)
 
-[peony_压缩文件-2](./img/peony_压缩文件-2.png)
+![peony_压缩文件-2](./img/peony_压缩文件-2.png)
 
-[peony_压缩文件-3](./img/peony_压缩文件-3.png)
+![peony_压缩文件-3](./img/peony_压缩文件-3.png)
 
 
 ## 预期结果
@@ -154,10 +136,10 @@ tab 能够正常使用
 
 剪切：
 
-[peony_复制剪切粘贴文件-1](./img/peony_复制剪切粘贴文件-1.png)
+![peony_复制剪切粘贴文件-1](./img/peony_复制剪切粘贴文件-1.png)
 
 3. 粘贴
-[peony_复制剪切粘贴文件-2](./img/peony_复制剪切粘贴文件-2.png)
+![peony_复制剪切粘贴文件-2](./img/peony_复制剪切粘贴文件-2.png)
 
 
 ## 预期结果
@@ -174,13 +156,13 @@ tab 能够正常使用
 2. 选择文件右键 Properties
 
 
-[peony_显示文件属性-1](./img/peony_显示文件属性-1.png)
+![peony_显示文件属性-1](./img/peony_显示文件属性-1.png)
 
 3. 显示 properties
 
 
 
-[peony_显示文件属性-2](./img/peony_显示文件属性-2.png)
+![peony_显示文件属性-2](./img/peony_显示文件属性-2.png)
 
 
 ## 预期结果
@@ -196,15 +178,12 @@ tab 能够正常使用
 1. 打开 peony
 2. 点击右上角
 
-
-
-[peony_显示预览-1](./img/peony_显示预览-1.png)
-
+![peony_显示预览-1](./img/peony_显示预览-1.png)
 
 ## 预期结果
 正常显示
 
-[peony_显示预览-2.png](./img/peony_显示预览-2.png)
+![peony_显示预览-2.png](./img/peony_显示预览-2.png)
 
 ## 实际结果
 与预期相符
@@ -217,12 +196,12 @@ tab 能够正常使用
 1. 打开 peony
 2. 点击 Show Hidden
 
-[peony_显示隐藏文件-1](./img/peony_显示隐藏文件-1.png)
+![peony_显示隐藏文件-1](./img/peony_显示隐藏文件-1.png)
 
 ## 预期结果
 看见隐藏文件
 
-[peony_显示隐藏文件-2](./img/peony_显示隐藏文件-2.png)
+![peony_显示隐藏文件-2](./img/peony_显示隐藏文件-2.png)
 
 ## 实际结果
 与预期相符
