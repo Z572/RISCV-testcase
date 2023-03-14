@@ -397,7 +397,7 @@
 ** 操作步骤
 右键 View Type... ， 选择其中一项
 #+DOWNLOADED: screenshot @ 2023-03-13 16:39:15
-[[file:修改图标大小/2023-03-13_16-39-15_screenshot.png]]
+[[file:修改图标大小/修改图标大小-1.png]]
 
 ** 预期结果
 图标大小改变
@@ -413,12 +413,12 @@
 
 
 #+DOWNLOADED: screenshot @ 2023-03-13 16:41:56
-[[file:在桌面打开终端/2023-03-13_16-41-56_screenshot.png]]
+[[file:在桌面打开终端/在桌面打开终端-1.png]]
 
 ** 预期结果
 终端被打开
 #+DOWNLOADED: screenshot @ 2023-03-13 16:41:09
-[[file:在桌面打开终端/2023-03-13_16-41-09_screenshot.png]]
+[[file:在桌面打开终端/在桌面打开终端-2.png]]
 
 ** 实际结果
 与预期相符
@@ -431,18 +431,18 @@
 右键选择 set background
 
 #+DOWNLOADED: screenshot @ 2023-03-13 16:42:57
-[[file:设置背景/2023-03-13_16-42-57_screenshot.png]]
+[[file:设置背景/设置背景-1.png]]
 
 选择其中一个
 
 
 #+DOWNLOADED: screenshot @ 2023-03-13 17:01:12
-[[file:设置背景/2023-03-13_17-01-12_screenshot.png]]
+[[file:设置背景/设置背景-2.png]]
 
 ** 预期结果
 
 #+DOWNLOADED: screenshot @ 2023-03-13 17:00:26
-[[file:设置背景/2023-03-13_17-00-26_screenshot.png]]
+[[file:设置背景/设置背景-3.png]]
 
 ** 实际结果
 与预期相符
@@ -455,10 +455,10 @@
 ** 操作步骤
 打开设置，选择 account ，点击 Add new user
 #+DOWNLOADED: screenshot @ 2023-03-13 17:42:37
-[[file:在设置中添加用户/2023-03-13_17-42-37_screenshot.png]]
+[[file:在设置中添加用户/在设置中添加用户-1.png]]
 
 #+DOWNLOADED: screenshot @ 2023-03-13 17:43:26
-[[file:在设置中添加用户/2023-03-13_17-43-26_screenshot.png]]
+[[file:在设置中添加用户/在设置中添加用户-2.png]]
 选择
 ** 预期结果
 添加一个新用户
@@ -475,7 +475,7 @@
 3. 输入文本搜索
 
 #+DOWNLOADED: screenshot @ 2023-03-14 09:20:03
-[[file:设置界面搜索/2023-03-14_09-20-03_screenshot.png]]
+[[file:设置界面搜索/设置界面搜索-1.png]]
 
 ** 预期结果
 成功搜索
@@ -491,24 +491,23 @@
 选择 Datetime > Area > First Language
 
 #+DOWNLOADED: screenshot @ 2023-03-14 09:29:00
-[[file:设置界面修改语言/2023-03-14_09-29-00_screenshot.png]]
+[[file:设置界面修改语言/设置界面修改语言-1.png]]
 
 选择一种语言，在弹出页面中选择重启
 
 #+DOWNLOADED: screenshot @ 2023-03-14 09:29:30
-[[file:设置界面修改语言/2023-03-14_09-29-30_screenshot.png]]
+[[file:设置界面修改语言/设置界面修改语言-2.png]]
 
 ** 预期结果
 
 界面语言被改变
 
 ** 实际结果
-登录界面语言被改变
-
+与预期不符
 #+DOWNLOADED: screenshot @ 2023-03-14 09:45:53
-[[file:设置界面修改语言/2023-03-14_09-45-53_screenshot.png]]
+[[file:设置界面修改语言/设置界面修改语言-3.png]]
 
-
+登录界面语言被改变
 进入桌面环境后语言设置未被改变， LANG 环境变量为 C.UTF-8。
 
 疑似 /etc/profile.d/lang.sh 的问题
@@ -522,11 +521,11 @@
 1. 打开 Trash
 
 #+DOWNLOADED: screenshot @ 2023-03-14 09:49:27
-[[file:清空_Trash/2023-03-14_09-49-27_screenshot.png]]
+[[file:清空_Trash/清空_Trash-1.png]]
 2. 点击 Clear
 
 #+DOWNLOADED: screenshot @ 2023-03-14 09:50:20
-[[file:清空_Trash/2023-03-14_09-50-20_screenshot.png]]
+[[file:清空_Trash/清空_Trash-2.png]]
 3. 选择 yes
 4. 内容被清空。
 ** 预期结果
@@ -543,14 +542,14 @@
 1. 打开 peony
 
 #+DOWNLOADED: screenshot @ 2023-03-14 09:54:40
-[[file:peony_缩放文件大小/2023-03-14_09-54-40_screenshot.png]]
+[[file:peony_缩放文件大小/peony_缩放文件大小-1.png]]
 
 
 2. 拖拽右下角
 
 
 #+DOWNLOADED: screenshot @ 2023-03-14 09:54:50
-[[file:peony_缩放文件大小/2023-03-14_09-54-50_screenshot.png]]
+[[file:peony_缩放文件大小/peony_缩放文件大小-2.png]]
 
 
 
@@ -559,7 +558,7 @@
 显示大小被改变
 
 #+DOWNLOADED: screenshot @ 2023-03-14 09:55:13
-[[file:peony_缩放文件大小/2023-03-14_09-55-13_screenshot.png]]
+[[file:peony_缩放文件大小/peony_缩放文件大小-3.png]]
 
 
 ** 实际结果
@@ -573,7 +572,7 @@
 1. 打开 peony
 
 #+DOWNLOADED: screenshot @ 2023-03-14 10:02:47
-[[file:peony排序/2023-03-14_10-02-47_screenshot.png]]
+[[file:peony排序/peony排序-1.png]]
 
 2. 选择 Modified Date 等
 
@@ -597,7 +596,7 @@
    
 
 #+DOWNLOADED: screenshot @ 2023-03-14 10:05:29
-[[file:peony_点击地址栏/2023-03-14_10-05-29_screenshot.png]]
+[[file:peony_点击地址栏/peony_点击地址栏-1.png]]
 
 ** 预期结果
 
@@ -617,7 +616,7 @@
    
 
 #+DOWNLOADED: screenshot @ 2023-03-14 10:07:20
-[[file:peony_测试前进后退/2023-03-14_10-07-20_screenshot.png]]
+[[file:peony_测试前进后退/peony_测试前进后退-1.png]]
 
    
    
@@ -636,13 +635,13 @@
    
 
 #+DOWNLOADED: screenshot @ 2023-03-14 10:08:26
-[[file:peony_搜索/2023-03-14_10-08-26_screenshot.png]]
+[[file:peony_搜索/peony_搜索-1.png]]
 
 3. 搜索
 
 
 #+DOWNLOADED: screenshot @ 2023-03-14 10:08:49
-[[file:peony_搜索/2023-03-14_10-08-49_screenshot.png]]
+[[file:peony_搜索/peony_搜索-2.png]]
 
 ** 预期结果
 正常进行搜索
@@ -832,14 +831,14 @@ tab 能够正常使用
 1. 打开 peony
 2. 点击 Show Hidden
 #+DOWNLOADED: screenshot @ 2023-03-14 11:48:24
-[[file:peony_显示隐藏文件/2023-03-14_11-48-24_screenshot.png]]
+[[file:peony_显示隐藏文件/peony_显示隐藏文件-1.png]]
 
 ** 预期结果
 看见隐藏文件
 
 
 #+DOWNLOADED: screenshot @ 2023-03-14 11:49:17
-[[file:peony_显示隐藏文件/2023-03-14_11-49-17_screenshot.png]]
+[[file:peony_显示隐藏文件/peony_显示隐藏文件-2.png]]
 
 ** 实际结果
 与预期相符
@@ -886,7 +885,7 @@ tab 能够正常使用
 2. 调节
 
 #+DOWNLOADED: screenshot @ 2023-03-14 12:02:53
-[[file:任务栏修改音量/2023-03-14_12-02-53_screenshot.png]]
+[[file:任务栏修改音量/任务栏修改音量-1.png]]
 
 
 ** 预期结果
@@ -904,7 +903,7 @@ tab 能够正常使用
 ** 预期结果
 弹出相应界面
 #+DOWNLOADED: screenshot @ 2023-03-14 12:05:11
-[[file:任务栏sidebar/2023-03-14_12-05-11_screenshot.png]]
+[[file:任务栏sidebar/任务栏sidebar-1.png]]
 
 ** 实际结果
 与预期相符
@@ -960,7 +959,7 @@ tab 能够正常使用
 
 
 #+DOWNLOADED: screenshot @ 2023-03-14 12:21:49
-[[file:关闭卡死应用/2023-03-14_12-21-49_screenshot.png]]
+[[file:关闭卡死应用/关闭卡死应用-1.png]]
 
 ** 预期结果
 能够关闭卡死应用程序
@@ -977,7 +976,7 @@ tab 能够正常使用
 3. 查看/修改相应选项
 
 #+DOWNLOADED: screenshot @ 2023-03-14 12:29:39
-[[file:设置显示网络/2023-03-14_12-29-39_screenshot.png]]
+[[file:设置显示网络/设置显示网络-1.png]]
 
 ** 预期结果
 成功查看/修改网络
@@ -991,7 +990,7 @@ tab 能够正常使用
 ** 操作步骤
 1. 右键任务栏，选择 Adjustment Size/ Adjustment Position
 #+DOWNLOADED: screenshot @ 2023-03-14 12:57:13
-[[file:任务栏修改位置与大小/2023-03-14_12-57-13_screenshot.png]]
+[[file:任务栏修改位置与大小/任务栏修改位置与大小-1.png]]
 
 
 ** 预期结果
@@ -999,7 +998,7 @@ tab 能够正常使用
 成功修改任务栏位置与大小
 
 #+DOWNLOADED: screenshot @ 2023-03-14 12:58:32
-[[file:任务栏修改位置与大小/2023-03-14_12-58-32_screenshot.png]]
+[[file:任务栏修改位置与大小/任务栏修改位置与大小-2.png]]
 
 ** 实际结果
 
@@ -1016,7 +1015,7 @@ tab 能够正常使用
 
 
 #+DOWNLOADED: screenshot @ 2023-03-14 13:00:39
-[[file:隐藏任务栏/2023-03-14_13-00-39_screenshot.png]]
+[[file:隐藏任务栏/隐藏任务栏-1.png]]
 
 ** 预期结果
 
@@ -1066,7 +1065,7 @@ tab 能够正常使用
 1. 随机打开应用程序
 2. 打开 system monitor
 #+DOWNLOADED: screenshot @ 2023-03-14 13:19:49
-[[file:system_monitor/2023-03-14_13-19-49_screenshot.png]]
+[[file:system_monitor/system_monitor_1.png]]
 
 3. 对之前创建的程序进行 stop process/Continue process/End process/Kill process 等操作。
 ** 预期结果
@@ -1085,7 +1084,7 @@ tab 能够正常使用
 ** 预期结果
 成功筛选
 #+DOWNLOADED: screenshot @ 2023-03-14 14:00:52
-[[file:system_monitor_搜索/2023-03-14_14-00-52_screenshot.png]]
+[[file:system_monitor_搜索/system_monitor_搜索-1.png]]
 
 ** 实际结果
 与预期相符
@@ -1099,7 +1098,7 @@ tab 能够正常使用
 2. 点击 Resources
 3. 成功查看cpu/内存/网络使用
 #+DOWNLOADED: screenshot @ 2023-03-14 14:02:41
-[[file:system_monitor_查看cpu/内存/网络使用/2023-03-14_14-02-41_screenshot.png]]
+[[file:system_monitor_查看cpu/内存/网络使用/system monitor_查看cpu_内存_网络使用.png]]
 
 ** 预期结果
 成功查看cpu/内存/网络使用
