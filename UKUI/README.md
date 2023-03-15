@@ -11,7 +11,8 @@ Linux 发行版。
 ## 环境配置
 
 - 操作系统版本： openEuler 22.03 LTS riscv64
-
+vcpu: 16
+memory: 32G
 
 ## 参考资料
 https://www.ukui.org
