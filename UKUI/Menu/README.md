@@ -1,3 +1,6 @@
+# ukui-menu
+## 环境配置
+```
 Name         : ukui-menu
 Version      : 3.0.3
 Release      : 2.oe2203
@@ -13,3 +16,4 @@ Description  :  UKUI menu provides start menu development library and advanced
              :  graphical user interface.
              :  .
              :  The package contains executable file.
+```
